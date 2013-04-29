@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4554F4AA16EBEA0A009D8C50 /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554F4A816EBEA0A009D8C50 /* RoutesViewController.m */; };
+		4554F4AB16EBEA0A009D8C50 /* RoutesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4554F4A916EBEA0A009D8C50 /* RoutesViewController.xib */; };
+		4554F4AD16EBEA2F009D8C50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554F4AC16EBEA2F009D8C50 /* MapKit.framework */; };
+		4554F4AF16EBEA38009D8C50 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554F4AE16EBEA38009D8C50 /* CoreLocation.framework */; };
+		4554F4B216EBEDD7009D8C50 /* RouteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554F4B116EBEDD7009D8C50 /* RouteFactory.m */; };
+		4554F4BF16EBF309009D8C50 /* RouteAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554F4BE16EBF309009D8C50 /* RouteAgent.m */; };
+		458AC5D216F0D2F0008BEB71 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458AC5D016F0D2F0008BEB71 /* ScheduleViewController.m */; };
+		458AC5D316F0D2F0008BEB71 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458AC5D116F0D2F0008BEB71 /* ScheduleViewController.xib */; };
+		45C15FBC16FC82F100E5013B /* banner_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FA216FC82F100E5013B /* banner_1.png */; };
+		45C15FBD16FC82F100E5013B /* banner_1@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FA316FC82F100E5013B /* banner_1@2x.PNG */; };
+		45C15FBE16FC82F100E5013B /* banner_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FA416FC82F100E5013B /* banner_2.PNG */; };
+		45C15FBF16FC82F100E5013B /* banner_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FA516FC82F100E5013B /* banner_2@2x.png */; };
+		45C15FC216FC82F100E5013B /* banner_4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FA816FC82F100E5013B /* banner_4.PNG */; };
+		45C15FC316FC82F100E5013B /* banner_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FA916FC82F100E5013B /* banner_4@2x.png */; };
+		45C15FC416FC82F100E5013B /* banner_5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FAA16FC82F100E5013B /* banner_5.PNG */; };
+		45C15FC516FC82F100E5013B /* banner_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FAB16FC82F100E5013B /* banner_5@2x.png */; };
+		45C15FC616FC82F100E5013B /* banner_6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FAC16FC82F100E5013B /* banner_6.PNG */; };
+		45C15FC716FC82F100E5013B /* banner_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FAD16FC82F100E5013B /* banner_6@2x.png */; };
+		45C15FC816FC82F100E5013B /* banner_7.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FAE16FC82F100E5013B /* banner_7.PNG */; };
+		45C15FC916FC82F100E5013B /* banner_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FAF16FC82F100E5013B /* banner_7@2x.png */; };
+		45C15FCC16FC82F100E5013B /* banner_9.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB216FC82F100E5013B /* banner_9.PNG */; };
+		45C15FCD16FC82F100E5013B /* banner_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB316FC82F100E5013B /* banner_9@2x.png */; };
+		45C15FCE16FC82F100E5013B /* banner_10.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB416FC82F100E5013B /* banner_10.PNG */; };
+		45C15FCF16FC82F100E5013B /* banner_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB516FC82F100E5013B /* banner_10@2x.png */; };
+		45C15FD016FC82F100E5013B /* banner_3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB616FC82F100E5013B /* banner_3.PNG */; };
+		45C15FD116FC82F100E5013B /* banner_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB716FC82F100E5013B /* banner_3@2x.png */; };
+		45C15FD216FC82F100E5013B /* banner_8.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB816FC82F100E5013B /* banner_8.PNG */; };
+		45C15FD316FC82F100E5013B /* banner_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FB916FC82F100E5013B /* banner_8@2x.png */; };
+		45C15FD416FC82F100E5013B /* schedule.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FBA16FC82F100E5013B /* schedule.PNG */; };
+		45C15FD516FC82F100E5013B /* schedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C15FBB16FC82F100E5013B /* schedule@2x.png */; };
+		45C29C2916F5202D00545408 /* PersonalBestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C29C2716F5202D00545408 /* PersonalBestCell.xib */; };
+		45C29C2C16F5205300545408 /* PesronalBestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C2B16F5205300545408 /* PesronalBestCell.m */; };
+		45C29C2F16F5229600545408 /* PersonalBestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C2E16F5229600545408 /* PersonalBestItem.m */; };
+		45C29C3216F522AE00545408 /* UpdateLogObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C3116F522AE00545408 /* UpdateLogObject.m */; };
+		45C29C3516F522CA00545408 /* SplitValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C3416F522CA00545408 /* SplitValues.m */; };
+		45C29C3816F522E000545408 /* CheckListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C3716F522E000545408 /* CheckListItem.m */; };
+		45C29C3B16F522F800545408 /* RegistrationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C3A16F522F800545408 /* RegistrationObject.m */; };
+		45C29C3E16F5230F00545408 /* RouteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C3D16F5230F00545408 /* RouteObject.m */; };
+		45C29C4116F5233C00545408 /* WaypointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C4016F5233C00545408 /* WaypointObject.m */; };
+		45C29C4416F5235100545408 /* ResultObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C4316F5235000545408 /* ResultObject.m */; };
+		45C29C4916F52A8A00545408 /* EditPersonalBestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C29C4716F52A8900545408 /* EditPersonalBestViewController.m */; };
+		45C29C4A16F52A8A00545408 /* EditPersonalBestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C29C4816F52A8900545408 /* EditPersonalBestViewController.xib */; };
+		45C357F716FF160900860133 /* ChooseResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C357F516FF160900860133 /* ChooseResultsViewController.m */; };
+		45C357F816FF160900860133 /* ChooseResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C357F616FF160900860133 /* ChooseResultsViewController.xib */; };
+		45C357FC16FF162F00860133 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C357FA16FF162F00860133 /* ResultsViewController.m */; };
+		45C357FD16FF162F00860133 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C357FB16FF162F00860133 /* ResultsViewController.xib */; };
+		45C3580116FF165800860133 /* ResultDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C357FF16FF165800860133 /* ResultDetailsViewController.m */; };
+		45C3580216FF165800860133 /* ResultDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C3580016FF165800860133 /* ResultDetailsViewController.xib */; };
+		45C4C3F316EB6F5100FDE4E5 /* CheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C4C3F116EB6F5100FDE4E5 /* CheckListViewController.m */; };
+		45C4C3F416EB6F5100FDE4E5 /* CheckListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C4C3F216EB6F5100FDE4E5 /* CheckListViewController.xib */; };
+		45C4C3FC16EB752900FDE4E5 /* PRKeeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C4C3FA16EB752900FDE4E5 /* PRKeeperViewController.m */; };
+		45C4C3FD16EB752900FDE4E5 /* PRKeeperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C4C3FB16EB752900FDE4E5 /* PRKeeperViewController.xib */; };
+		45CB277516E50C1100881E3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CB277416E50C1100881E3C /* UIKit.framework */; };
+		45CB277716E50C1100881E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CB277616E50C1100881E3C /* Foundation.framework */; };
+		45CB277916E50C1100881E3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CB277816E50C1100881E3C /* CoreGraphics.framework */; };
+		45CB277B16E50C1100881E3C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CB277A16E50C1100881E3C /* CoreData.framework */; };
+		45CB278116E50C1100881E3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45CB277F16E50C1100881E3C /* InfoPlist.strings */; };
+		45CB278316E50C1100881E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB278216E50C1100881E3C /* main.m */; };
+		45CB278716E50C1100881E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB278616E50C1100881E3C /* AppDelegate.m */; };
+		45CB278A16E50C1100881E3C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CB278816E50C1100881E3C /* MainStoryboard.storyboard */; };
+		45CB278D16E50C1100881E3C /* TRISTAR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45CB278B16E50C1100881E3C /* TRISTAR.xcdatamodeld */; };
+		45CB27AA16E50D5C00881E3C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB27A916E50D5C00881E3C /* MainViewController.m */; };
+		45CB27B816E510C800881E3C /* Tri111ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB27B616E510C800881E3C /* Tri111ViewController.m */; };
+		45CB27B916E510C800881E3C /* Tri111ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB27B716E510C800881E3C /* Tri111ViewController.xib */; };
+		45CB27BD16E510E500881E3C /* Tri33ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB27BB16E510E500881E3C /* Tri33ViewController.m */; };
+		45CB27BE16E510E500881E3C /* Tri33ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB27BC16E510E500881E3C /* Tri33ViewController.xib */; };
+		45CB27C216E510FD00881E3C /* Tri11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB27C016E510FD00881E3C /* Tri11ViewController.m */; };
+		45CB27C316E510FD00881E3C /* Tri11ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB27C116E510FD00881E3C /* Tri11ViewController.xib */; };
+		45CB27C716E5112500881E3C /* StarRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB27C516E5112500881E3C /* StarRunViewController.m */; };
+		45CB27C816E5112500881E3C /* StarRunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB27C616E5112500881E3C /* StarRunViewController.xib */; };
+		45CB27CC16E5265100881E3C /* RacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CB27CA16E5265100881E3C /* RacesViewController.m */; };
+		45CB27CD16E5265100881E3C /* RacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CB27CB16E5265100881E3C /* RacesViewController.xib */; };
+		45CFF3DF16EBD4A700C43882 /* star_logo_tristar_estonia_450x90_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CFF3DC16EBD4A700C43882 /* star_logo_tristar_estonia_450x90_01.png */; };
+		45CFF3E016EBD4A700C43882 /* tristrAppIcon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45CFF3DD16EBD4A700C43882 /* tristrAppIcon.PNG */; };
+		45CFF3E116EBD4A700C43882 /* tristrAppIcon2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45CFF3DE16EBD4A700C43882 /* tristrAppIcon2.PNG */; };
+		45D10A6716E560770070AC2C /* PaceCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D10A6516E560770070AC2C /* PaceCalcViewController.m */; };
+		45D10A6816E560770070AC2C /* PaceCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D10A6616E560770070AC2C /* PaceCalcViewController.xib */; };
+		45D10A6D16E566E90070AC2C /* ChooseToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D10A6B16E566E90070AC2C /* ChooseToolViewController.m */; };
+		45D10A6E16E566E90070AC2C /* ChooseToolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D10A6C16E566E90070AC2C /* ChooseToolViewController.xib */; };
+		45D3D30316FF991C006A614D /* SampleDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30216FF991C006A614D /* SampleDataFactory.m */; };
+		45D3D30716FFA0B1006A614D /* StringFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30616FFA0B1006A614D /* StringFactory.m */; };
+		45D3D30D16FFA1D4006A614D /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D3D30B16FFA1D4006A614D /* ResultCell.xib */; };
+		45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30F16FFA1FD006A614D /* ResultCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4554F4A716EBEA0A009D8C50 /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutesViewController.h; path = TRISTAR/Classes/Views/RoutesView/RoutesViewController.h; sourceTree = "<group>"; };
+		4554F4A816EBEA0A009D8C50 /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesViewController.m; path = TRISTAR/Classes/Views/RoutesView/RoutesViewController.m; sourceTree = "<group>"; };
+		4554F4A916EBEA0A009D8C50 /* RoutesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RoutesViewController.xib; path = TRISTAR/Classes/Views/RoutesView/RoutesViewController.xib; sourceTree = "<group>"; };
+		4554F4AC16EBEA2F009D8C50 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4554F4AE16EBEA38009D8C50 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4554F4B016EBEDD7009D8C50 /* RouteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteFactory.h; path = TRISTAR/Classes/Factory/RouteFactory.h; sourceTree = "<group>"; };
+		4554F4B116EBEDD7009D8C50 /* RouteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteFactory.m; path = TRISTAR/Classes/Factory/RouteFactory.m; sourceTree = "<group>"; };
+		4554F4BD16EBF309009D8C50 /* RouteAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteAgent.h; path = TRISTAR/Classes/Factory/RouteAgent.h; sourceTree = "<group>"; };
+		4554F4BE16EBF309009D8C50 /* RouteAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteAgent.m; path = TRISTAR/Classes/Factory/RouteAgent.m; sourceTree = "<group>"; };
+		458AC5CF16F0D2F0008BEB71 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = TRISTAR/Classes/Views/ScheduleView/ScheduleViewController.h; sourceTree = "<group>"; };
+		458AC5D016F0D2F0008BEB71 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = TRISTAR/Classes/Views/ScheduleView/ScheduleViewController.m; sourceTree = "<group>"; };
+		458AC5D116F0D2F0008BEB71 /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleViewController.xib; path = TRISTAR/Classes/Views/ScheduleView/ScheduleViewController.xib; sourceTree = "<group>"; };
+		45C15FA216FC82F100E5013B /* banner_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_1.png; sourceTree = "<group>"; };
+		45C15FA316FC82F100E5013B /* banner_1@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_1@2x.PNG"; sourceTree = "<group>"; };
+		45C15FA416FC82F100E5013B /* banner_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_2.PNG; sourceTree = "<group>"; };
+		45C15FA516FC82F100E5013B /* banner_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_2@2x.png"; sourceTree = "<group>"; };
+		45C15FA816FC82F100E5013B /* banner_4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_4.PNG; sourceTree = "<group>"; };
+		45C15FA916FC82F100E5013B /* banner_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_4@2x.png"; sourceTree = "<group>"; };
+		45C15FAA16FC82F100E5013B /* banner_5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_5.PNG; sourceTree = "<group>"; };
+		45C15FAB16FC82F100E5013B /* banner_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_5@2x.png"; sourceTree = "<group>"; };
+		45C15FAC16FC82F100E5013B /* banner_6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_6.PNG; sourceTree = "<group>"; };
+		45C15FAD16FC82F100E5013B /* banner_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_6@2x.png"; sourceTree = "<group>"; };
+		45C15FAE16FC82F100E5013B /* banner_7.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_7.PNG; sourceTree = "<group>"; };
+		45C15FAF16FC82F100E5013B /* banner_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_7@2x.png"; sourceTree = "<group>"; };
+		45C15FB216FC82F100E5013B /* banner_9.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_9.PNG; sourceTree = "<group>"; };
+		45C15FB316FC82F100E5013B /* banner_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_9@2x.png"; sourceTree = "<group>"; };
+		45C15FB416FC82F100E5013B /* banner_10.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_10.PNG; sourceTree = "<group>"; };
+		45C15FB516FC82F100E5013B /* banner_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_10@2x.png"; sourceTree = "<group>"; };
+		45C15FB616FC82F100E5013B /* banner_3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_3.PNG; sourceTree = "<group>"; };
+		45C15FB716FC82F100E5013B /* banner_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_3@2x.png"; sourceTree = "<group>"; };
+		45C15FB816FC82F100E5013B /* banner_8.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_8.PNG; sourceTree = "<group>"; };
+		45C15FB916FC82F100E5013B /* banner_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_8@2x.png"; sourceTree = "<group>"; };
+		45C15FBA16FC82F100E5013B /* schedule.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.PNG; sourceTree = "<group>"; };
+		45C15FBB16FC82F100E5013B /* schedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule@2x.png"; sourceTree = "<group>"; };
+		45C29C2716F5202D00545408 /* PersonalBestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalBestCell.xib; path = TRISTAR/Classes/Views/PRKeeperView/PersonalBestCell.xib; sourceTree = "<group>"; };
+		45C29C2A16F5205300545408 /* PesronalBestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PesronalBestCell.h; path = TRISTAR/Classes/Views/PRKeeperView/PesronalBestCell.h; sourceTree = "<group>"; };
+		45C29C2B16F5205300545408 /* PesronalBestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PesronalBestCell.m; path = TRISTAR/Classes/Views/PRKeeperView/PesronalBestCell.m; sourceTree = "<group>"; };
+		45C29C2D16F5229600545408 /* PersonalBestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalBestItem.h; path = TRISTAR/Classes/DataObjects/PersonalBestItem.h; sourceTree = "<group>"; };
+		45C29C2E16F5229600545408 /* PersonalBestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalBestItem.m; path = TRISTAR/Classes/DataObjects/PersonalBestItem.m; sourceTree = "<group>"; };
+		45C29C3016F522AE00545408 /* UpdateLogObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateLogObject.h; path = TRISTAR/Classes/DataObjects/UpdateLogObject.h; sourceTree = "<group>"; };
+		45C29C3116F522AE00545408 /* UpdateLogObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateLogObject.m; path = TRISTAR/Classes/DataObjects/UpdateLogObject.m; sourceTree = "<group>"; };
+		45C29C3316F522CA00545408 /* SplitValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplitValues.h; path = TRISTAR/Classes/DataObjects/SplitValues.h; sourceTree = "<group>"; };
+		45C29C3416F522CA00545408 /* SplitValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplitValues.m; path = TRISTAR/Classes/DataObjects/SplitValues.m; sourceTree = "<group>"; };
+		45C29C3616F522E000545408 /* CheckListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckListItem.h; path = TRISTAR/Classes/DataObjects/CheckListItem.h; sourceTree = "<group>"; };
+		45C29C3716F522E000545408 /* CheckListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckListItem.m; path = TRISTAR/Classes/DataObjects/CheckListItem.m; sourceTree = "<group>"; };
+		45C29C3916F522F800545408 /* RegistrationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationObject.h; path = TRISTAR/Classes/DataObjects/RegistrationObject.h; sourceTree = "<group>"; };
+		45C29C3A16F522F800545408 /* RegistrationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationObject.m; path = TRISTAR/Classes/DataObjects/RegistrationObject.m; sourceTree = "<group>"; };
+		45C29C3C16F5230F00545408 /* RouteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteObject.h; path = TRISTAR/Classes/DataObjects/RouteObject.h; sourceTree = "<group>"; };
+		45C29C3D16F5230F00545408 /* RouteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteObject.m; path = TRISTAR/Classes/DataObjects/RouteObject.m; sourceTree = "<group>"; };
+		45C29C3F16F5233C00545408 /* WaypointObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaypointObject.h; path = TRISTAR/Classes/DataObjects/WaypointObject.h; sourceTree = "<group>"; };
+		45C29C4016F5233C00545408 /* WaypointObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaypointObject.m; path = TRISTAR/Classes/DataObjects/WaypointObject.m; sourceTree = "<group>"; };
+		45C29C4216F5235000545408 /* ResultObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultObject.h; path = TRISTAR/Classes/DataObjects/ResultObject.h; sourceTree = "<group>"; };
+		45C29C4316F5235000545408 /* ResultObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultObject.m; path = TRISTAR/Classes/DataObjects/ResultObject.m; sourceTree = "<group>"; };
+		45C29C4616F52A8900545408 /* EditPersonalBestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditPersonalBestViewController.h; path = TRISTAR/Classes/Views/EditPersonalBestView/EditPersonalBestViewController.h; sourceTree = "<group>"; };
+		45C29C4716F52A8900545408 /* EditPersonalBestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditPersonalBestViewController.m; path = TRISTAR/Classes/Views/EditPersonalBestView/EditPersonalBestViewController.m; sourceTree = "<group>"; };
+		45C29C4816F52A8900545408 /* EditPersonalBestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditPersonalBestViewController.xib; path = TRISTAR/Classes/Views/EditPersonalBestView/EditPersonalBestViewController.xib; sourceTree = "<group>"; };
+		45C357F416FF160900860133 /* ChooseResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseResultsViewController.h; path = TRISTAR/Classes/Views/ChooseResultsView/ChooseResultsViewController.h; sourceTree = "<group>"; };
+		45C357F516FF160900860133 /* ChooseResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseResultsViewController.m; path = TRISTAR/Classes/Views/ChooseResultsView/ChooseResultsViewController.m; sourceTree = "<group>"; };
+		45C357F616FF160900860133 /* ChooseResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChooseResultsViewController.xib; path = TRISTAR/Classes/Views/ChooseResultsView/ChooseResultsViewController.xib; sourceTree = "<group>"; };
+		45C357F916FF162F00860133 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = TRISTAR/Classes/Views/ResultsView/ResultsViewController.h; sourceTree = "<group>"; };
+		45C357FA16FF162F00860133 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = TRISTAR/Classes/Views/ResultsView/ResultsViewController.m; sourceTree = "<group>"; };
+		45C357FB16FF162F00860133 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultsViewController.xib; path = TRISTAR/Classes/Views/ResultsView/ResultsViewController.xib; sourceTree = "<group>"; };
+		45C357FE16FF165800860133 /* ResultDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultDetailsViewController.h; path = TRISTAR/Classes/Views/ResultDetailsView/ResultDetailsViewController.h; sourceTree = "<group>"; };
+		45C357FF16FF165800860133 /* ResultDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultDetailsViewController.m; path = TRISTAR/Classes/Views/ResultDetailsView/ResultDetailsViewController.m; sourceTree = "<group>"; };
+		45C3580016FF165800860133 /* ResultDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultDetailsViewController.xib; path = TRISTAR/Classes/Views/ResultDetailsView/ResultDetailsViewController.xib; sourceTree = "<group>"; };
+		45C4C3F016EB6F5100FDE4E5 /* CheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckListViewController.h; path = TRISTAR/Classes/Views/CheckListView/CheckListViewController.h; sourceTree = "<group>"; };
+		45C4C3F116EB6F5100FDE4E5 /* CheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckListViewController.m; path = TRISTAR/Classes/Views/CheckListView/CheckListViewController.m; sourceTree = "<group>"; };
+		45C4C3F216EB6F5100FDE4E5 /* CheckListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CheckListViewController.xib; path = TRISTAR/Classes/Views/CheckListView/CheckListViewController.xib; sourceTree = "<group>"; };
+		45C4C3F916EB752900FDE4E5 /* PRKeeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRKeeperViewController.h; path = TRISTAR/Classes/Views/PRKeeperView/PRKeeperViewController.h; sourceTree = "<group>"; };
+		45C4C3FA16EB752900FDE4E5 /* PRKeeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRKeeperViewController.m; path = TRISTAR/Classes/Views/PRKeeperView/PRKeeperViewController.m; sourceTree = "<group>"; };
+		45C4C3FB16EB752900FDE4E5 /* PRKeeperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PRKeeperViewController.xib; path = TRISTAR/Classes/Views/PRKeeperView/PRKeeperViewController.xib; sourceTree = "<group>"; };
+		45CB277016E50C1100881E3C /* TRISTAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRISTAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CB277416E50C1100881E3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45CB277616E50C1100881E3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45CB277816E50C1100881E3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45CB277A16E50C1100881E3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		45CB277E16E50C1100881E3C /* TRISTAR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRISTAR-Info.plist"; sourceTree = "<group>"; };
+		45CB278016E50C1100881E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45CB278216E50C1100881E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45CB278416E50C1100881E3C /* TRISTAR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRISTAR-Prefix.pch"; sourceTree = "<group>"; };
+		45CB278516E50C1100881E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45CB278616E50C1100881E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45CB278916E50C1100881E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		45CB278C16E50C1100881E3C /* TRISTAR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TRISTAR.xcdatamodel; sourceTree = "<group>"; };
+		45CB27A816E50D5C00881E3C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = TRISTAR/Classes/Views/MainView/MainViewController.h; sourceTree = "<group>"; };
+		45CB27A916E50D5C00881E3C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = TRISTAR/Classes/Views/MainView/MainViewController.m; sourceTree = "<group>"; };
+		45CB27B516E510C800881E3C /* Tri111ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tri111ViewController.h; path = TRISTAR/Classes/Views/RacesViews/111/Tri111ViewController.h; sourceTree = "<group>"; };
+		45CB27B616E510C800881E3C /* Tri111ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tri111ViewController.m; path = TRISTAR/Classes/Views/RacesViews/111/Tri111ViewController.m; sourceTree = "<group>"; };
+		45CB27B716E510C800881E3C /* Tri111ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Tri111ViewController.xib; path = TRISTAR/Classes/Views/RacesViews/111/Tri111ViewController.xib; sourceTree = "<group>"; };
+		45CB27BA16E510E500881E3C /* Tri33ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tri33ViewController.h; path = TRISTAR/Classes/Views/RacesViews/33/Tri33ViewController.h; sourceTree = "<group>"; };
+		45CB27BB16E510E500881E3C /* Tri33ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tri33ViewController.m; path = TRISTAR/Classes/Views/RacesViews/33/Tri33ViewController.m; sourceTree = "<group>"; };
+		45CB27BC16E510E500881E3C /* Tri33ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Tri33ViewController.xib; path = TRISTAR/Classes/Views/RacesViews/33/Tri33ViewController.xib; sourceTree = "<group>"; };
+		45CB27BF16E510FD00881E3C /* Tri11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tri11ViewController.h; path = TRISTAR/Classes/Views/RacesViews/11/Tri11ViewController.h; sourceTree = "<group>"; };
+		45CB27C016E510FD00881E3C /* Tri11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tri11ViewController.m; path = TRISTAR/Classes/Views/RacesViews/11/Tri11ViewController.m; sourceTree = "<group>"; };
+		45CB27C116E510FD00881E3C /* Tri11ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Tri11ViewController.xib; path = TRISTAR/Classes/Views/RacesViews/11/Tri11ViewController.xib; sourceTree = "<group>"; };
+		45CB27C416E5112500881E3C /* StarRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarRunViewController.h; path = TRISTAR/Classes/Views/RacesViews/StarRun/StarRunViewController.h; sourceTree = "<group>"; };
+		45CB27C516E5112500881E3C /* StarRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarRunViewController.m; path = TRISTAR/Classes/Views/RacesViews/StarRun/StarRunViewController.m; sourceTree = "<group>"; };
+		45CB27C616E5112500881E3C /* StarRunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StarRunViewController.xib; path = TRISTAR/Classes/Views/RacesViews/StarRun/StarRunViewController.xib; sourceTree = "<group>"; };
+		45CB27C916E5265100881E3C /* RacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RacesViewController.h; path = TRISTAR/Classes/Views/RacesViews/RacesViewController.h; sourceTree = "<group>"; };
+		45CB27CA16E5265100881E3C /* RacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RacesViewController.m; path = TRISTAR/Classes/Views/RacesViews/RacesViewController.m; sourceTree = "<group>"; };
+		45CB27CB16E5265100881E3C /* RacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RacesViewController.xib; path = TRISTAR/Classes/Views/RacesViews/RacesViewController.xib; sourceTree = "<group>"; };
+		45CFF3DC16EBD4A700C43882 /* star_logo_tristar_estonia_450x90_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_logo_tristar_estonia_450x90_01.png; sourceTree = "<group>"; };
+		45CFF3DD16EBD4A700C43882 /* tristrAppIcon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tristrAppIcon.PNG; sourceTree = "<group>"; };
+		45CFF3DE16EBD4A700C43882 /* tristrAppIcon2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tristrAppIcon2.PNG; sourceTree = "<group>"; };
+		45D10A6416E560770070AC2C /* PaceCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaceCalcViewController.h; path = TRISTAR/Classes/Views/PaceCalc/PaceCalcViewController.h; sourceTree = "<group>"; };
+		45D10A6516E560770070AC2C /* PaceCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaceCalcViewController.m; path = TRISTAR/Classes/Views/PaceCalc/PaceCalcViewController.m; sourceTree = "<group>"; };
+		45D10A6616E560770070AC2C /* PaceCalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaceCalcViewController.xib; path = TRISTAR/Classes/Views/PaceCalc/PaceCalcViewController.xib; sourceTree = "<group>"; };
+		45D10A6A16E566E90070AC2C /* ChooseToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseToolViewController.h; path = TRISTAR/Classes/Views/ChooseToolView/ChooseToolViewController.h; sourceTree = "<group>"; };
+		45D10A6B16E566E90070AC2C /* ChooseToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseToolViewController.m; path = TRISTAR/Classes/Views/ChooseToolView/ChooseToolViewController.m; sourceTree = "<group>"; };
+		45D10A6C16E566E90070AC2C /* ChooseToolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChooseToolViewController.xib; path = TRISTAR/Classes/Views/ChooseToolView/ChooseToolViewController.xib; sourceTree = "<group>"; };
+		45D3D30116FF991C006A614D /* SampleDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleDataFactory.h; path = TRISTAR/Classes/Factory/SampleDataFactory.h; sourceTree = "<group>"; };
+		45D3D30216FF991C006A614D /* SampleDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleDataFactory.m; path = TRISTAR/Classes/Factory/SampleDataFactory.m; sourceTree = "<group>"; };
+		45D3D30516FFA0B1006A614D /* StringFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringFactory.h; path = TRISTAR/Classes/Factory/StringFactory.h; sourceTree = "<group>"; };
+		45D3D30616FFA0B1006A614D /* StringFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringFactory.m; path = TRISTAR/Classes/Factory/StringFactory.m; sourceTree = "<group>"; };
+		45D3D30B16FFA1D4006A614D /* ResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultCell.xib; path = TRISTAR/Classes/Views/ResultsView/ResultCell.xib; sourceTree = "<group>"; };
+		45D3D30E16FFA1FD006A614D /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultCell.h; path = TRISTAR/Classes/Views/ResultsView/ResultCell.h; sourceTree = "<group>"; };
+		45D3D30F16FFA1FD006A614D /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultCell.m; path = TRISTAR/Classes/Views/ResultsView/ResultCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CB276D16E50C1100881E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4554F4AF16EBEA38009D8C50 /* CoreLocation.framework in Frameworks */,
+				4554F4AD16EBEA2F009D8C50 /* MapKit.framework in Frameworks */,
+				45CB277516E50C1100881E3C /* UIKit.framework in Frameworks */,
+				45CB277716E50C1100881E3C /* Foundation.framework in Frameworks */,
+				45CB277916E50C1100881E3C /* CoreGraphics.framework in Frameworks */,
+				45CB277B16E50C1100881E3C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4554F49F16EBE978009D8C50 /* RoutesView */ = {
+			isa = PBXGroup;
+			children = (
+				4554F4A716EBEA0A009D8C50 /* RoutesViewController.h */,
+				4554F4A816EBEA0A009D8C50 /* RoutesViewController.m */,
+				4554F4A916EBEA0A009D8C50 /* RoutesViewController.xib */,
+			);
+			name = RoutesView;
+			sourceTree = "<group>";
+		};
+		4554F4A016EBE988009D8C50 /* RulesView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RulesView;
+			sourceTree = "<group>";
+		};
+		4554F4A116EBE9B8009D8C50 /* RegistrationsView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RegistrationsView;
+			sourceTree = "<group>";
+		};
+		458AC5CD16F0D2C0008BEB71 /* ScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				458AC5CF16F0D2F0008BEB71 /* ScheduleViewController.h */,
+				458AC5D016F0D2F0008BEB71 /* ScheduleViewController.m */,
+				458AC5D116F0D2F0008BEB71 /* ScheduleViewController.xib */,
+			);
+			name = ScheduleView;
+			sourceTree = "<group>";
+		};
+		45C29C2316F5200C00545408 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45C29C2716F5202D00545408 /* PersonalBestCell.xib */,
+				45C29C2A16F5205300545408 /* PesronalBestCell.h */,
+				45C29C2B16F5205300545408 /* PesronalBestCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		45C29C4516F52A5D00545408 /* EditPersonalBestView */ = {
+			isa = PBXGroup;
+			children = (
+				45C29C4616F52A8900545408 /* EditPersonalBestViewController.h */,
+				45C29C4716F52A8900545408 /* EditPersonalBestViewController.m */,
+				45C29C4816F52A8900545408 /* EditPersonalBestViewController.xib */,
+			);
+			name = EditPersonalBestView;
+			sourceTree = "<group>";
+		};
+		45C357EB16FF14CF00860133 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27B216E5106800881E3C /* PaceCalcView */,
+				45CB27B316E5107100881E3C /* PersonalbestView */,
+				45CB27B416E5107D00881E3C /* CheckListView */,
+				45D10A6916E566C80070AC2C /* ChooseToolView */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		45C357EC16FF150500860133 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				45C357EE16FF151900860133 /* ResultsDetailView */,
+				45C357ED16FF150E00860133 /* ChooseResultsView */,
+				45CB27B116E5105F00881E3C /* ResultsView */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		45C357ED16FF150E00860133 /* ChooseResultsView */ = {
+			isa = PBXGroup;
+			children = (
+				45C357F416FF160900860133 /* ChooseResultsViewController.h */,
+				45C357F516FF160900860133 /* ChooseResultsViewController.m */,
+				45C357F616FF160900860133 /* ChooseResultsViewController.xib */,
+			);
+			name = ChooseResultsView;
+			sourceTree = "<group>";
+		};
+		45C357EE16FF151900860133 /* ResultsDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				45C357FE16FF165800860133 /* ResultDetailsViewController.h */,
+				45C357FF16FF165800860133 /* ResultDetailsViewController.m */,
+				45C3580016FF165800860133 /* ResultDetailsViewController.xib */,
+			);
+			name = ResultsDetailView;
+			sourceTree = "<group>";
+		};
+		45C4C3E716EB4FA500FDE4E5 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				45C29C2D16F5229600545408 /* PersonalBestItem.h */,
+				45C29C2E16F5229600545408 /* PersonalBestItem.m */,
+				45C29C3016F522AE00545408 /* UpdateLogObject.h */,
+				45C29C3116F522AE00545408 /* UpdateLogObject.m */,
+				45C29C3316F522CA00545408 /* SplitValues.h */,
+				45C29C3416F522CA00545408 /* SplitValues.m */,
+				45C29C3616F522E000545408 /* CheckListItem.h */,
+				45C29C3716F522E000545408 /* CheckListItem.m */,
+				45C29C3916F522F800545408 /* RegistrationObject.h */,
+				45C29C3A16F522F800545408 /* RegistrationObject.m */,
+				45C29C3C16F5230F00545408 /* RouteObject.h */,
+				45C29C3D16F5230F00545408 /* RouteObject.m */,
+				45C29C3F16F5233C00545408 /* WaypointObject.h */,
+				45C29C4016F5233C00545408 /* WaypointObject.m */,
+				45C29C4216F5235000545408 /* ResultObject.h */,
+				45C29C4316F5235000545408 /* ResultObject.m */,
+			);
+			name = DataObjects;
+			sourceTree = "<group>";
+		};
+		45C95B8D16E553D6002DF341 /* Banners */ = {
+			isa = PBXGroup;
+			children = (
+				45C15FA216FC82F100E5013B /* banner_1.png */,
+				45C15FA316FC82F100E5013B /* banner_1@2x.PNG */,
+				45C15FA416FC82F100E5013B /* banner_2.PNG */,
+				45C15FA516FC82F100E5013B /* banner_2@2x.png */,
+				45C15FA816FC82F100E5013B /* banner_4.PNG */,
+				45C15FA916FC82F100E5013B /* banner_4@2x.png */,
+				45C15FAA16FC82F100E5013B /* banner_5.PNG */,
+				45C15FAB16FC82F100E5013B /* banner_5@2x.png */,
+				45C15FAC16FC82F100E5013B /* banner_6.PNG */,
+				45C15FAD16FC82F100E5013B /* banner_6@2x.png */,
+				45C15FAE16FC82F100E5013B /* banner_7.PNG */,
+				45C15FAF16FC82F100E5013B /* banner_7@2x.png */,
+				45C15FB216FC82F100E5013B /* banner_9.PNG */,
+				45C15FB316FC82F100E5013B /* banner_9@2x.png */,
+				45C15FB416FC82F100E5013B /* banner_10.PNG */,
+				45C15FB516FC82F100E5013B /* banner_10@2x.png */,
+				45C15FB616FC82F100E5013B /* banner_3.PNG */,
+				45C15FB716FC82F100E5013B /* banner_3@2x.png */,
+				45C15FB816FC82F100E5013B /* banner_8.PNG */,
+				45C15FB916FC82F100E5013B /* banner_8@2x.png */,
+				45C15FBA16FC82F100E5013B /* schedule.PNG */,
+				45C15FBB16FC82F100E5013B /* schedule@2x.png */,
+			);
+			name = Banners;
+			sourceTree = "<group>";
+		};
+		45CB276516E50C1000881E3C = {
+			isa = PBXGroup;
+			children = (
+				45C4C3E716EB4FA500FDE4E5 /* DataObjects */,
+				45CB279D16E50C8300881E3C /* Design */,
+				45CB279C16E50C7B00881E3C /* WebServices */,
+				45CB279B16E50C7000881E3C /* Models */,
+				45CB279A16E50C6B00881E3C /* Factory */,
+				45CB279916E50C6400881E3C /* Views */,
+				45CB277C16E50C1100881E3C /* TRISTAR */,
+				45CB277316E50C1100881E3C /* Frameworks */,
+				45CB277116E50C1100881E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45CB277116E50C1100881E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CB277016E50C1100881E3C /* TRISTAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CB277316E50C1100881E3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4554F4AE16EBEA38009D8C50 /* CoreLocation.framework */,
+				4554F4AC16EBEA2F009D8C50 /* MapKit.framework */,
+				45CB277416E50C1100881E3C /* UIKit.framework */,
+				45CB277616E50C1100881E3C /* Foundation.framework */,
+				45CB277816E50C1100881E3C /* CoreGraphics.framework */,
+				45CB277A16E50C1100881E3C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45CB277C16E50C1100881E3C /* TRISTAR */ = {
+			isa = PBXGroup;
+			children = (
+				45CB278516E50C1100881E3C /* AppDelegate.h */,
+				45CB278616E50C1100881E3C /* AppDelegate.m */,
+				45CB278816E50C1100881E3C /* MainStoryboard.storyboard */,
+				45CB278B16E50C1100881E3C /* TRISTAR.xcdatamodeld */,
+				45CB277D16E50C1100881E3C /* Supporting Files */,
+			);
+			path = TRISTAR;
+			sourceTree = "<group>";
+		};
+		45CB277D16E50C1100881E3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45CB277E16E50C1100881E3C /* TRISTAR-Info.plist */,
+				45CB277F16E50C1100881E3C /* InfoPlist.strings */,
+				45CB278216E50C1100881E3C /* main.m */,
+				45CB278416E50C1100881E3C /* TRISTAR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45CB279916E50C6400881E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45C357EC16FF150500860133 /* Results */,
+				45C357EB16FF14CF00860133 /* Tools */,
+				458AC5CD16F0D2C0008BEB71 /* ScheduleView */,
+				4554F4A116EBE9B8009D8C50 /* RegistrationsView */,
+				4554F4A016EBE988009D8C50 /* RulesView */,
+				4554F49F16EBE978009D8C50 /* RoutesView */,
+				45CB27B016E5105500881E3C /* NewsView */,
+				45CB27AB16E5102500881E3C /* RacesView */,
+				45CB279E16E50C9100881E3C /* MainView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		45CB279A16E50C6B00881E3C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				4554F4B016EBEDD7009D8C50 /* RouteFactory.h */,
+				4554F4B116EBEDD7009D8C50 /* RouteFactory.m */,
+				4554F4BD16EBF309009D8C50 /* RouteAgent.h */,
+				4554F4BE16EBF309009D8C50 /* RouteAgent.m */,
+				45D3D30116FF991C006A614D /* SampleDataFactory.h */,
+				45D3D30216FF991C006A614D /* SampleDataFactory.m */,
+				45D3D30516FFA0B1006A614D /* StringFactory.h */,
+				45D3D30616FFA0B1006A614D /* StringFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		45CB279B16E50C7000881E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		45CB279C16E50C7B00881E3C /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		45CB279D16E50C8300881E3C /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				45CFF3DA16EBD47F00C43882 /* Icons */,
+				45C95B8D16E553D6002DF341 /* Banners */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		45CB279E16E50C9100881E3C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27A816E50D5C00881E3C /* MainViewController.h */,
+				45CB27A916E50D5C00881E3C /* MainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		45CB27AB16E5102500881E3C /* RacesView */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27AF16E5104800881E3C /* StarRun */,
+				45CB27AE16E5104300881E3C /* 11.1 */,
+				45CB27AD16E5103D00881E3C /* 33.3 */,
+				45CB27AC16E5102D00881E3C /* 111 */,
+				45CB27C916E5265100881E3C /* RacesViewController.h */,
+				45CB27CA16E5265100881E3C /* RacesViewController.m */,
+				45CB27CB16E5265100881E3C /* RacesViewController.xib */,
+			);
+			name = RacesView;
+			sourceTree = "<group>";
+		};
+		45CB27AC16E5102D00881E3C /* 111 */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27B516E510C800881E3C /* Tri111ViewController.h */,
+				45CB27B616E510C800881E3C /* Tri111ViewController.m */,
+				45CB27B716E510C800881E3C /* Tri111ViewController.xib */,
+			);
+			name = 111;
+			sourceTree = "<group>";
+		};
+		45CB27AD16E5103D00881E3C /* 33.3 */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27BA16E510E500881E3C /* Tri33ViewController.h */,
+				45CB27BB16E510E500881E3C /* Tri33ViewController.m */,
+				45CB27BC16E510E500881E3C /* Tri33ViewController.xib */,
+			);
+			name = 33.3;
+			sourceTree = "<group>";
+		};
+		45CB27AE16E5104300881E3C /* 11.1 */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27BF16E510FD00881E3C /* Tri11ViewController.h */,
+				45CB27C016E510FD00881E3C /* Tri11ViewController.m */,
+				45CB27C116E510FD00881E3C /* Tri11ViewController.xib */,
+			);
+			name = 11.1;
+			sourceTree = "<group>";
+		};
+		45CB27AF16E5104800881E3C /* StarRun */ = {
+			isa = PBXGroup;
+			children = (
+				45CB27C416E5112500881E3C /* StarRunViewController.h */,
+				45CB27C516E5112500881E3C /* StarRunViewController.m */,
+				45CB27C616E5112500881E3C /* StarRunViewController.xib */,
+			);
+			name = StarRun;
+			sourceTree = "<group>";
+		};
+		45CB27B016E5105500881E3C /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NewsView;
+			sourceTree = "<group>";
+		};
+		45CB27B116E5105F00881E3C /* ResultsView */ = {
+			isa = PBXGroup;
+			children = (
+				45D3D30816FFA1A7006A614D /* Cell */,
+				45C357F916FF162F00860133 /* ResultsViewController.h */,
+				45C357FA16FF162F00860133 /* ResultsViewController.m */,
+				45C357FB16FF162F00860133 /* ResultsViewController.xib */,
+			);
+			name = ResultsView;
+			sourceTree = "<group>";
+		};
+		45CB27B216E5106800881E3C /* PaceCalcView */ = {
+			isa = PBXGroup;
+			children = (
+				45D10A6416E560770070AC2C /* PaceCalcViewController.h */,
+				45D10A6516E560770070AC2C /* PaceCalcViewController.m */,
+				45D10A6616E560770070AC2C /* PaceCalcViewController.xib */,
+			);
+			name = PaceCalcView;
+			sourceTree = "<group>";
+		};
+		45CB27B316E5107100881E3C /* PersonalbestView */ = {
+			isa = PBXGroup;
+			children = (
+				45C29C4516F52A5D00545408 /* EditPersonalBestView */,
+				45C29C2316F5200C00545408 /* Cells */,
+				45C4C3F916EB752900FDE4E5 /* PRKeeperViewController.h */,
+				45C4C3FA16EB752900FDE4E5 /* PRKeeperViewController.m */,
+				45C4C3FB16EB752900FDE4E5 /* PRKeeperViewController.xib */,
+			);
+			name = PersonalbestView;
+			sourceTree = "<group>";
+		};
+		45CB27B416E5107D00881E3C /* CheckListView */ = {
+			isa = PBXGroup;
+			children = (
+				45C4C3F016EB6F5100FDE4E5 /* CheckListViewController.h */,
+				45C4C3F116EB6F5100FDE4E5 /* CheckListViewController.m */,
+				45C4C3F216EB6F5100FDE4E5 /* CheckListViewController.xib */,
+			);
+			name = CheckListView;
+			sourceTree = "<group>";
+		};
+		45CFF3DA16EBD47F00C43882 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				45CFF3DC16EBD4A700C43882 /* star_logo_tristar_estonia_450x90_01.png */,
+				45CFF3DD16EBD4A700C43882 /* tristrAppIcon.PNG */,
+				45CFF3DE16EBD4A700C43882 /* tristrAppIcon2.PNG */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		45D10A6916E566C80070AC2C /* ChooseToolView */ = {
+			isa = PBXGroup;
+			children = (
+				45D10A6A16E566E90070AC2C /* ChooseToolViewController.h */,
+				45D10A6B16E566E90070AC2C /* ChooseToolViewController.m */,
+				45D10A6C16E566E90070AC2C /* ChooseToolViewController.xib */,
+			);
+			name = ChooseToolView;
+			sourceTree = "<group>";
+		};
+		45D3D30816FFA1A7006A614D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				45D3D30B16FFA1D4006A614D /* ResultCell.xib */,
+				45D3D30E16FFA1FD006A614D /* ResultCell.h */,
+				45D3D30F16FFA1FD006A614D /* ResultCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CB276F16E50C1100881E3C /* TRISTAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CB279616E50C1200881E3C /* Build configuration list for PBXNativeTarget "TRISTAR" */;
+			buildPhases = (
+				45CB276C16E50C1100881E3C /* Sources */,
+				45CB276D16E50C1100881E3C /* Frameworks */,
+				45CB276E16E50C1100881E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRISTAR;
+			productName = TRISTAR;
+			productReference = 45CB277016E50C1100881E3C /* TRISTAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CB276716E50C1000881E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 45CB276A16E50C1000881E3C /* Build configuration list for PBXProject "TRISTAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45CB276516E50C1000881E3C;
+			productRefGroup = 45CB277116E50C1100881E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CB276F16E50C1100881E3C /* TRISTAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CB276E16E50C1100881E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CB278116E50C1100881E3C /* InfoPlist.strings in Resources */,
+				45CB278A16E50C1100881E3C /* MainStoryboard.storyboard in Resources */,
+				45CB27B916E510C800881E3C /* Tri111ViewController.xib in Resources */,
+				45CB27BE16E510E500881E3C /* Tri33ViewController.xib in Resources */,
+				45CB27C316E510FD00881E3C /* Tri11ViewController.xib in Resources */,
+				45CB27C816E5112500881E3C /* StarRunViewController.xib in Resources */,
+				45CB27CD16E5265100881E3C /* RacesViewController.xib in Resources */,
+				45D10A6816E560770070AC2C /* PaceCalcViewController.xib in Resources */,
+				45D10A6E16E566E90070AC2C /* ChooseToolViewController.xib in Resources */,
+				45C4C3F416EB6F5100FDE4E5 /* CheckListViewController.xib in Resources */,
+				45C4C3FD16EB752900FDE4E5 /* PRKeeperViewController.xib in Resources */,
+				45CFF3DF16EBD4A700C43882 /* star_logo_tristar_estonia_450x90_01.png in Resources */,
+				45CFF3E016EBD4A700C43882 /* tristrAppIcon.PNG in Resources */,
+				45CFF3E116EBD4A700C43882 /* tristrAppIcon2.PNG in Resources */,
+				4554F4AB16EBEA0A009D8C50 /* RoutesViewController.xib in Resources */,
+				458AC5D316F0D2F0008BEB71 /* ScheduleViewController.xib in Resources */,
+				45C29C2916F5202D00545408 /* PersonalBestCell.xib in Resources */,
+				45C29C4A16F52A8A00545408 /* EditPersonalBestViewController.xib in Resources */,
+				45C15FBC16FC82F100E5013B /* banner_1.png in Resources */,
+				45C15FBD16FC82F100E5013B /* banner_1@2x.PNG in Resources */,
+				45C15FBE16FC82F100E5013B /* banner_2.PNG in Resources */,
+				45C15FBF16FC82F100E5013B /* banner_2@2x.png in Resources */,
+				45C15FC216FC82F100E5013B /* banner_4.PNG in Resources */,
+				45C15FC316FC82F100E5013B /* banner_4@2x.png in Resources */,
+				45C15FC416FC82F100E5013B /* banner_5.PNG in Resources */,
+				45C15FC516FC82F100E5013B /* banner_5@2x.png in Resources */,
+				45C15FC616FC82F100E5013B /* banner_6.PNG in Resources */,
+				45C15FC716FC82F100E5013B /* banner_6@2x.png in Resources */,
+				45C15FC816FC82F100E5013B /* banner_7.PNG in Resources */,
+				45C15FC916FC82F100E5013B /* banner_7@2x.png in Resources */,
+				45C15FCC16FC82F100E5013B /* banner_9.PNG in Resources */,
+				45C15FCD16FC82F100E5013B /* banner_9@2x.png in Resources */,
+				45C15FCE16FC82F100E5013B /* banner_10.PNG in Resources */,
+				45C15FCF16FC82F100E5013B /* banner_10@2x.png in Resources */,
+				45C15FD016FC82F100E5013B /* banner_3.PNG in Resources */,
+				45C15FD116FC82F100E5013B /* banner_3@2x.png in Resources */,
+				45C15FD216FC82F100E5013B /* banner_8.PNG in Resources */,
+				45C15FD316FC82F100E5013B /* banner_8@2x.png in Resources */,
+				45C15FD416FC82F100E5013B /* schedule.PNG in Resources */,
+				45C15FD516FC82F100E5013B /* schedule@2x.png in Resources */,
+				45C357F816FF160900860133 /* ChooseResultsViewController.xib in Resources */,
+				45C357FD16FF162F00860133 /* ResultsViewController.xib in Resources */,
+				45C3580216FF165800860133 /* ResultDetailsViewController.xib in Resources */,
+				45D3D30D16FFA1D4006A614D /* ResultCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CB276C16E50C1100881E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CB278316E50C1100881E3C /* main.m in Sources */,
+				45CB278716E50C1100881E3C /* AppDelegate.m in Sources */,
+				45CB278D16E50C1100881E3C /* TRISTAR.xcdatamodeld in Sources */,
+				45CB27AA16E50D5C00881E3C /* MainViewController.m in Sources */,
+				45CB27B816E510C800881E3C /* Tri111ViewController.m in Sources */,
+				45CB27BD16E510E500881E3C /* Tri33ViewController.m in Sources */,
+				45CB27C216E510FD00881E3C /* Tri11ViewController.m in Sources */,
+				45CB27C716E5112500881E3C /* StarRunViewController.m in Sources */,
+				45CB27CC16E5265100881E3C /* RacesViewController.m in Sources */,
+				45D10A6716E560770070AC2C /* PaceCalcViewController.m in Sources */,
+				45D10A6D16E566E90070AC2C /* ChooseToolViewController.m in Sources */,
+				45C4C3F316EB6F5100FDE4E5 /* CheckListViewController.m in Sources */,
+				45C4C3FC16EB752900FDE4E5 /* PRKeeperViewController.m in Sources */,
+				4554F4AA16EBEA0A009D8C50 /* RoutesViewController.m in Sources */,
+				4554F4B216EBEDD7009D8C50 /* RouteFactory.m in Sources */,
+				4554F4BF16EBF309009D8C50 /* RouteAgent.m in Sources */,
+				458AC5D216F0D2F0008BEB71 /* ScheduleViewController.m in Sources */,
+				45C29C2C16F5205300545408 /* PesronalBestCell.m in Sources */,
+				45C29C2F16F5229600545408 /* PersonalBestItem.m in Sources */,
+				45C29C3216F522AE00545408 /* UpdateLogObject.m in Sources */,
+				45C29C3516F522CA00545408 /* SplitValues.m in Sources */,
+				45C29C3816F522E000545408 /* CheckListItem.m in Sources */,
+				45C29C3B16F522F800545408 /* RegistrationObject.m in Sources */,
+				45C29C3E16F5230F00545408 /* RouteObject.m in Sources */,
+				45C29C4116F5233C00545408 /* WaypointObject.m in Sources */,
+				45C29C4416F5235100545408 /* ResultObject.m in Sources */,
+				45C29C4916F52A8A00545408 /* EditPersonalBestViewController.m in Sources */,
+				45C357F716FF160900860133 /* ChooseResultsViewController.m in Sources */,
+				45C357FC16FF162F00860133 /* ResultsViewController.m in Sources */,
+				45C3580116FF165800860133 /* ResultDetailsViewController.m in Sources */,
+				45D3D30316FF991C006A614D /* SampleDataFactory.m in Sources */,
+				45D3D30716FFA0B1006A614D /* StringFactory.m in Sources */,
+				45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45CB277F16E50C1100881E3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CB278016E50C1100881E3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45CB278816E50C1100881E3C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CB278916E50C1100881E3C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45CB279416E50C1100881E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45CB279516E50C1200881E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CB279716E50C1200881E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRISTAR/TRISTAR-Prefix.pch";
+				INFOPLIST_FILE = "TRISTAR/TRISTAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45CB279816E50C1200881E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRISTAR/TRISTAR-Prefix.pch";
+				INFOPLIST_FILE = "TRISTAR/TRISTAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CB276A16E50C1000881E3C /* Build configuration list for PBXProject "TRISTAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CB279416E50C1100881E3C /* Debug */,
+				45CB279516E50C1200881E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CB279616E50C1200881E3C /* Build configuration list for PBXNativeTarget "TRISTAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CB279716E50C1200881E3C /* Debug */,
+				45CB279816E50C1200881E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45CB278B16E50C1100881E3C /* TRISTAR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45CB278C16E50C1100881E3C /* TRISTAR.xcdatamodel */,
+			);
+			currentVersion = 45CB278C16E50C1100881E3C /* TRISTAR.xcdatamodel */;
+			path = TRISTAR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45CB276716E50C1000881E3C /* Project object */;
+}

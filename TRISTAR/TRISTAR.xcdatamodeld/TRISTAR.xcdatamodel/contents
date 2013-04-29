@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CheckListItem" representedClassName="CheckListItem" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="checked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PersonalBestItem" representedClassName="PersonalBestItem" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="RegistrationObject" representedClassName="RegistrationObject" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="agegroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="raceID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="startNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ResultObject" representedClassName="ResultObject" syncable="YES">
+        <attribute name="ageGroupID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ageGroupPosition" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="bikeTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overAllPosition" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="raceID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="runTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="startNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="swimTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="t1Time" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t2Time" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="RouteObject" representedClassName="RouteObject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routeId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="SplitValues" representedClassName="SplitValues">
+        <attribute name="bike11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bike33" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bike111" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="run11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="run33" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="run111" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="swim11" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="swim33" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="swim111" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="t1_11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="t1_33" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="t1_111" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="t2_11" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="t2_33" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="t2_111" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="UpdateLogObject" representedClassName="UpdateLogObject" syncable="YES">
+        <attribute name="lastUpdateTri11Registration" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastUPdateTri11Results" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastUpdateTri33Registration" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastUpdateTri33Results" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastUpdateTri111Registration" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastUpdateTri111Results" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="WaypointObject" representedClassName="WaypointObject" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="routeId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CheckListItem" positionX="414" positionY="198" width="128" height="90"/>
+        <element name="PersonalBestItem" positionX="97" positionY="189" width="128" height="120"/>
+        <element name="RegistrationObject" positionX="414" positionY="414" width="128" height="165"/>
+        <element name="ResultObject" positionX="675" positionY="207" width="128" height="225"/>
+        <element name="RouteObject" positionX="529" positionY="288" width="128" height="75"/>
+        <element name="SplitValues" positionX="261" positionY="198" width="128" height="270"/>
+        <element name="UpdateLogObject" positionX="97" positionY="333" width="128" height="135"/>
+        <element name="WaypointObject" positionX="529" positionY="378" width="128" height="105"/>
+    </elements>
+</model>
