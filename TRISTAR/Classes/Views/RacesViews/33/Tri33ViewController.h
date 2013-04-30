@@ -8,10 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Tri33ViewController : UIViewController
+@class ChapterCell;
+
+@interface Tri33ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    NSArray *titles ;
+    NSArray *contents;
+    ChapterCell *chapter;
+}
 
 - (IBAction)routePressed:(id)sender;
 - (IBAction)rulesPressed:(id)sender;
-- (IBAction)registrationPressed:(id)sender;
 - (IBAction)resultsPressed:(id)sender;
+
+
+@property (strong, nonatomic) IBOutlet UITableViewCell *firstCell;
+@property (weak, nonatomic) IBOutlet UITableView *table;
+
+@property (weak, nonatomic) IBOutlet UIButton *routeButton;
+@property (weak, nonatomic) IBOutlet UIButton *rulesButton;
+@property (weak, nonatomic) IBOutlet UIButton *resultsButton;
 @end

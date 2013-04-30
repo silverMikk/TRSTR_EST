@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface ChapterCell : UITableViewCell{
+    
+}
 
-@interface ChapterCell : UITableViewCell
-
-@property (strong, nonatomic) IBOutlet UILabel *title;
-@property (strong, nonatomic) IBOutlet UITextView *content;
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UITextView *contentTextView;
 
 
 @end

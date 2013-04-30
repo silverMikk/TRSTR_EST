@@ -42,6 +42,7 @@
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrameSize">{320, 416}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="908925805"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="145867338">
 							<int key="NSColorSpace">3</int>
@@ -57,9 +58,10 @@
 					</object>
 					<object class="IBUIButton" id="908925805">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 20}, {72, 37}}</string>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{20, 269}, {89, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="439822214"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="145867338"/>
@@ -93,9 +95,10 @@
 					</object>
 					<object class="IBUIButton" id="167668923">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 65}, {72, 37}}</string>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{20, 314}, {89, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="872443752"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="145867338"/>
@@ -113,9 +116,10 @@
 					</object>
 					<object class="IBUIButton" id="872443752">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 110}, {72, 37}}</string>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{20, 359}, {89, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="145867338"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -132,9 +136,10 @@
 					</object>
 					<object class="IBUIButton" id="439822214">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{100, 20}, {87, 37}}</string>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{117, 359}, {89, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="167668923"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="145867338"/>
@@ -153,6 +158,7 @@
 				</array>
 				<string key="NSFrame">{{0, 64}, {320, 416}}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="960134256"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -267,11 +273,11 @@
 						<int key="objectID">1</int>
 						<reference key="object" ref="191373211"/>
 						<array class="NSMutableArray" key="children">
+							<reference ref="960134256"/>
 							<reference ref="908925805"/>
+							<reference ref="167668923"/>
 							<reference ref="872443752"/>
 							<reference ref="439822214"/>
-							<reference ref="167668923"/>
-							<reference ref="960134256"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -337,7 +343,71 @@
 			<nil key="sourceID"/>
 			<int key="maxID">19</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">RacesViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="starRunPressed:">id</string>
+						<string key="tri111Pressed:">id</string>
+						<string key="tri11Pressed:">id</string>
+						<string key="tri33Pressed:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="starRunPressed:">
+							<string key="name">starRunPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="tri111Pressed:">
+							<string key="name">tri111Pressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="tri11Pressed:">
+							<string key="name">tri11Pressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="tri33Pressed:">
+							<string key="name">tri33Pressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="backGroundImage">UIImageView</string>
+						<string key="runButton">UIButton</string>
+						<string key="tri111Button">UIButton</string>
+						<string key="tri11Button">UIButton</string>
+						<string key="tri33Button">UIButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="backGroundImage">
+							<string key="name">backGroundImage</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="runButton">
+							<string key="name">runButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="tri111Button">
+							<string key="name">tri111Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="tri11Button">
+							<string key="name">tri11Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="tri33Button">
+							<string key="name">tri33Button</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/RacesViewController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">

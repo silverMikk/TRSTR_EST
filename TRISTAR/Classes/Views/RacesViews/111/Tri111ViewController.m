@@ -107,12 +107,12 @@
     if (indexPath.row==0) {
         return firstCell.frame.size.height;
     }
-    [chapter.title setText:[titles objectAtIndex:indexPath.row]];
-    [chapter.content setText:[contents objectAtIndex:indexPath.row]];
-    CGRect rec = chapter.content.frame;
-    rec.size = chapter.content.contentSize;
-    [chapter.content setFrame:rec];
-    return chapter.content.contentSize.height +49;
+    [chapter.titleLabel setText:[titles objectAtIndex:indexPath.row]];
+    [chapter.contentTextView setText:[contents objectAtIndex:indexPath.row]];
+    CGRect rec = chapter.contentView.frame;
+    rec.size = chapter.contentTextView.contentSize;
+    [chapter.contentView setFrame:rec];
+    return chapter.contentTextView.contentSize.height +49;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -123,12 +123,12 @@
     if (cell==nil) {
         cell=[[ChapterCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
-    [cell.title setText:[titles objectAtIndex:indexPath.row]];
-    [cell.content setText:[contents objectAtIndex:indexPath.row]];
-    CGRect rec = cell.content.frame;
-    rec.size.height = cell.content.contentSize.height;
-    [cell.content setFrame:rec];
-    [cell setFrame:CGRectMake(0, 0, 320, cell.content.contentSize.height+49)];
+    [cell.titleLabel setText:[titles objectAtIndex:indexPath.row]];
+    [cell.contentTextView setText:[contents objectAtIndex:indexPath.row]];
+    CGRect rec = cell.contentView.frame;
+    rec.size.height = cell.contentTextView.contentSize.height;
+    [cell.contentView setFrame:rec];
+    [cell setFrame:CGRectMake(0, 0, 320, cell.contentTextView.contentSize.height+49)];
     return cell;
 }
 

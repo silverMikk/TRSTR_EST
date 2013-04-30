@@ -64,8 +64,10 @@
 	}
 	// zoom in on the route. 
     if (SwimID !=0) {
+        [segmentController setHidden:NO];
         [self zoomInOnRouteOnRect:_swimRect];
     }else {
+        [segmentController setHidden:YES];
         [self zoomInOnRouteOnRect:_runRect];
     }
 

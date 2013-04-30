@@ -9,8 +9,8 @@
 #import "ChapterCell.h"
 
 @implementation ChapterCell
-@synthesize title= _title;
-@synthesize content=_content;
+@synthesize titleLabel= _titleLabel;
+@synthesize contentTextView=_contentTextView;
 
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
