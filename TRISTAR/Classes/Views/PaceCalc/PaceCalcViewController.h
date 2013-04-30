@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RacesViewController.h"
 @class SplitValues;
 
 @interface PaceCalcViewController : UIViewController{
@@ -18,6 +19,8 @@
     NSManagedObjectContext *context;
 }
 
+@property (nonatomic,assign) id<ModalViewDelegate> delegate;
+
 @property (weak, nonatomic) IBOutlet UILabel *swimDurationLabel;
 @property (weak, nonatomic) IBOutlet UILabel *T1DurationLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bikeDurationLabel;
@@ -28,6 +31,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *swimSpeedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bikeSpeedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *runSpeedLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *t1Label;
+@property (weak, nonatomic) IBOutlet UILabel *t2Label;
+
 
 @property (weak, nonatomic) IBOutlet UILabel *swimDistanceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bikeDistanceLabel;

@@ -7,9 +7,9 @@
 //
 
 #import "MainViewController.h"
-#import "ChooseToolViewController.h"
+#import "PaceCalcViewController.h"
 #import "ScheduleViewController.h"
-
+#import <QuartzCore/QuartzCore.h>
 #define bannerCount 10
 @interface MainViewController ()
 
@@ -17,6 +17,7 @@
 
 @implementation MainViewController
 @synthesize banner;
+@synthesize raceButton,newsButton,toolButton,scheduleButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,6 +31,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [raceButton.layer setShadowColor:[UIColor blackColor].CGColor];
+    [raceButton.layer setShadowOpacity:0.8];
+    [raceButton.layer setShadowRadius:3.0];
+    [raceButton.layer setShadowOffset:CGSizeMake(2.0, 2.0)];
+    
+    [newsButton.layer setShadowColor:[UIColor blackColor].CGColor];
+    [newsButton.layer setShadowOpacity:0.8];
+    [newsButton.layer setShadowRadius:3.0];
+    [newsButton.layer setShadowOffset:CGSizeMake(2.0, 2.0)];
+    
+    [toolButton.layer setShadowColor:[UIColor blackColor].CGColor];
+    [toolButton.layer setShadowOpacity:0.8];
+    [toolButton.layer setShadowRadius:3.0];
+    [toolButton.layer setShadowOffset:CGSizeMake(2.0, 2.0)];
+    
+    [scheduleButton.layer setShadowColor:[UIColor blackColor].CGColor];
+    [scheduleButton.layer setShadowOpacity:0.8];
+    [scheduleButton.layer setShadowRadius:3.0];
+    [scheduleButton.layer setShadowOffset:CGSizeMake(2.0, 2.0)];
 	// Do any additional setup after loading the view.
     bannerIndex=1;
     [banner setImage:[UIImage imageNamed:[NSString stringWithFormat:@"banner_%d.png",bannerIndex]]];
@@ -38,6 +59,10 @@
 - (void)viewDidUnload
 {
     [self setBanner:nil];
+    [self setRaceButton:nil];
+    [self setNewsButton:nil];
+    [self setToolButton:nil];
+    [self setScheduleButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -98,10 +123,11 @@
 }
 
 - (IBAction)newsPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.tristar.ee"]];
 }
 
 - (IBAction)toolsPressed:(id)sender {
-    ChooseToolViewController *vc = [[ChooseToolViewController alloc] initWithNibName:@"ChooseToolViewController" bundle:nil];
+    PaceCalcViewController *vc = [[PaceCalcViewController alloc] initWithNibName:@"PaceCalcViewController" bundle:nil];
     [vc setDelegate:self];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
     nvc.navigationBar.tintColor = [UIColor blackColor];

@@ -8,6 +8,7 @@
 
 #import "PaceCalcViewController.h"
 #import "AppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 #import "SplitValues.h"
 #import "StringFactory.h"
 
@@ -34,7 +35,10 @@
 @synthesize T1Slider;
 @synthesize bikeSlider;
 @synthesize T2Slider;
+@synthesize t1Label;
+@synthesize t2Label;
 @synthesize runSlider;
+@synthesize delegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -48,7 +52,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    swimDurationLabel.layer.cornerRadius=5;
+    T1DurationLabel.layer.cornerRadius=5;
+    bikeDurationLabel.layer.cornerRadius=5;
+    T2DurationLabel.layer.cornerRadius=5;
+    runDurationLabel.layer.cornerRadius=5;
+    totalDurationLabel.layer.cornerRadius=5;
+    
+    swimSpeedLabel.layer.cornerRadius=5;
+    bikeSpeedLabel.layer.cornerRadius=5;
+    runSpeedLabel.layer.cornerRadius=5;
+    
+    t1Label.layer.cornerRadius=5;
+    t2Label.layer.cornerRadius=5;
+    
+    swimDistanceLabel.layer.cornerRadius=5;
+    bikeDistanceLabel.layer.cornerRadius=5;
+    runDistanceLabel.layer.cornerRadius=5;
+    
     [self.navigationItem setTitle:@"Pace Calculator"];
+    UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithTitle:@"Main" style:UIBarButtonItemStyleBordered target:self.delegate action:@selector(dissmisModalView)];
+    [self.navigationItem setLeftBarButtonItem:button];
     // Do any additional setup after loading the view from its nib.
     [unitsSegment setSelectedSegmentIndex:0];
     [distanceSegment setSelectedSegmentIndex:0];
@@ -108,6 +132,8 @@
     [self setBikeSlider:nil];
     [self setT2Slider:nil];
     [self setRunSlider:nil];
+    [self setT1Label:nil];
+    [self setT2Label:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -146,9 +172,6 @@
 }
 
 -(void)setSlidersTo111{
-    [swimDistanceLabel setText:@"1km"];
-    [bikeDistanceLabel setText:@"100km"];
-    [runDistanceLabel setText:@"10km"];
     
     [swimSlider setMinimumValue:660.0];
     [swimSlider setMaximumValue:1800.0];
@@ -167,9 +190,6 @@
 }
 
 -(void)setSlidersTo11{
-    [swimDistanceLabel setText:@"100m"];
-    [bikeDistanceLabel setText:@"10km"];
-    [runDistanceLabel setText:@"1km"];
     
     [swimSlider setMinimumValue:60.0];
     [swimSlider setMaximumValue:240.0];
@@ -188,9 +208,7 @@
 }
 
 -(void)setSlidersTo33{
-    [swimDistanceLabel setText:@"300m"];
-    [bikeDistanceLabel setText:@"30km"];
-    [runDistanceLabel setText:@"3km"];
+    
     
     [swimSlider setMinimumValue:180.0];
     [swimSlider setMaximumValue:720.0];

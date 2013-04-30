@@ -18,6 +18,12 @@
 
 @property (nonatomic, assign) id<ModalViewDelegate> delegate;
 
+@property (weak, nonatomic) IBOutlet UIButton *runButton;
+@property (weak, nonatomic) IBOutlet UIButton *tri111Button;
+@property (weak, nonatomic) IBOutlet UIButton *tri33Button;
+@property (weak, nonatomic) IBOutlet UIButton *tri11Button;
+
+
 - (IBAction)starRunPressed:(id)sender;
 - (IBAction)tri111Pressed:(id)sender;
 - (IBAction)tri33Pressed:(id)sender;

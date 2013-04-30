@@ -15,6 +15,12 @@
 }
 @property (weak, nonatomic) IBOutlet UIImageView *banner;
 
+@property (weak, nonatomic) IBOutlet UIButton *raceButton;
+@property (weak, nonatomic) IBOutlet UIButton *newsButton;
+@property (weak, nonatomic) IBOutlet UIButton *toolButton;
+@property (weak, nonatomic) IBOutlet UIButton *scheduleButton;
+
+
 - (IBAction)racesPressed:(id)sender;
 - (IBAction)newsPressed:(id)sender;
 - (IBAction)toolsPressed:(id)sender;

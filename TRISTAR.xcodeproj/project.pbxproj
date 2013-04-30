@@ -90,6 +90,17 @@
 		45D3D30716FFA0B1006A614D /* StringFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30616FFA0B1006A614D /* StringFactory.m */; };
 		45D3D30D16FFA1D4006A614D /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D3D30B16FFA1D4006A614D /* ResultCell.xib */; };
 		45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30F16FFA1FD006A614D /* ResultCell.m */; };
+		8C994446172EF96700D74AB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994445172EF96700D74AB7 /* Default-568h@2x.png */; };
+		8C99444D172F07B300D74AB7 /* calc_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994447172F07B300D74AB7 /* calc_back.png */; };
+		8C99444E172F07B300D74AB7 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994448172F07B300D74AB7 /* launch.png */; };
+		8C99444F172F07B300D74AB7 /* launch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994449172F07B300D74AB7 /* launch2.png */; };
+		8C994450172F07B300D74AB7 /* launch3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C99444A172F07B300D74AB7 /* launch3.png */; };
+		8C994451172F07B300D74AB7 /* tristar_app_icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8C99444B172F07B300D74AB7 /* tristar_app_icon.PNG */; };
+		8C994452172F07B300D74AB7 /* tristar_app_icon2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8C99444C172F07B300D74AB7 /* tristar_app_icon2.PNG */; };
+		8C994454172F07D100D74AB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994453172F07D100D74AB7 /* Default.png */; };
+		8C994456172F07E000D74AB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994455172F07E000D74AB7 /* Default@2x.png */; };
+		8C99445C172FCB7900D74AB7 /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C99445A172FCB7900D74AB7 /* ChapterCell.xib */; };
+		8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C99445E172FCBA100D74AB7 /* ChapterCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -210,6 +221,18 @@
 		45D3D30B16FFA1D4006A614D /* ResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultCell.xib; path = TRISTAR/Classes/Views/ResultsView/ResultCell.xib; sourceTree = "<group>"; };
 		45D3D30E16FFA1FD006A614D /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultCell.h; path = TRISTAR/Classes/Views/ResultsView/ResultCell.h; sourceTree = "<group>"; };
 		45D3D30F16FFA1FD006A614D /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultCell.m; path = TRISTAR/Classes/Views/ResultsView/ResultCell.m; sourceTree = "<group>"; };
+		8C994445172EF96700D74AB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8C994447172F07B300D74AB7 /* calc_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_back.png; sourceTree = "<group>"; };
+		8C994448172F07B300D74AB7 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		8C994449172F07B300D74AB7 /* launch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch2.png; sourceTree = "<group>"; };
+		8C99444A172F07B300D74AB7 /* launch3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch3.png; sourceTree = "<group>"; };
+		8C99444B172F07B300D74AB7 /* tristar_app_icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tristar_app_icon.PNG; sourceTree = "<group>"; };
+		8C99444C172F07B300D74AB7 /* tristar_app_icon2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tristar_app_icon2.PNG; sourceTree = "<group>"; };
+		8C994453172F07D100D74AB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8C994455172F07E000D74AB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8C99445A172FCB7900D74AB7 /* ChapterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChapterCell.xib; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.xib; sourceTree = "<group>"; };
+		8C99445D172FCBA100D74AB7 /* ChapterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChapterCell.h; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.h; sourceTree = "<group>"; };
+		8C99445E172FCBA100D74AB7 /* ChapterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChapterCell.m; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +506,15 @@
 		45CB279D16E50C8300881E3C /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				8C994455172F07E000D74AB7 /* Default@2x.png */,
+				8C994453172F07D100D74AB7 /* Default.png */,
+				8C994445172EF96700D74AB7 /* Default-568h@2x.png */,
+				8C994447172F07B300D74AB7 /* calc_back.png */,
+				8C994448172F07B300D74AB7 /* launch.png */,
+				8C994449172F07B300D74AB7 /* launch2.png */,
+				8C99444A172F07B300D74AB7 /* launch3.png */,
+				8C99444B172F07B300D74AB7 /* tristar_app_icon.PNG */,
+				8C99444C172F07B300D74AB7 /* tristar_app_icon2.PNG */,
 				45CFF3DA16EBD47F00C43882 /* Icons */,
 				45C95B8D16E553D6002DF341 /* Banners */,
 			);
@@ -501,6 +533,7 @@
 		45CB27AB16E5102500881E3C /* RacesView */ = {
 			isa = PBXGroup;
 			children = (
+				8C994457172FCB4100D74AB7 /* Cells */,
 				45CB27AF16E5104800881E3C /* StarRun */,
 				45CB27AE16E5104300881E3C /* 11.1 */,
 				45CB27AD16E5103D00881E3C /* 33.3 */,
@@ -632,6 +665,16 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
+		8C994457172FCB4100D74AB7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8C99445A172FCB7900D74AB7 /* ChapterCell.xib */,
+				8C99445D172FCBA100D74AB7 /* ChapterCell.h */,
+				8C99445E172FCBA100D74AB7 /* ChapterCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -726,6 +769,16 @@
 				45C357FD16FF162F00860133 /* ResultsViewController.xib in Resources */,
 				45C3580216FF165800860133 /* ResultDetailsViewController.xib in Resources */,
 				45D3D30D16FFA1D4006A614D /* ResultCell.xib in Resources */,
+				8C994446172EF96700D74AB7 /* Default-568h@2x.png in Resources */,
+				8C99444D172F07B300D74AB7 /* calc_back.png in Resources */,
+				8C99444E172F07B300D74AB7 /* launch.png in Resources */,
+				8C99444F172F07B300D74AB7 /* launch2.png in Resources */,
+				8C994450172F07B300D74AB7 /* launch3.png in Resources */,
+				8C994451172F07B300D74AB7 /* tristar_app_icon.PNG in Resources */,
+				8C994452172F07B300D74AB7 /* tristar_app_icon2.PNG in Resources */,
+				8C994454172F07D100D74AB7 /* Default.png in Resources */,
+				8C994456172F07E000D74AB7 /* Default@2x.png in Resources */,
+				8C99445C172FCB7900D74AB7 /* ChapterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +822,7 @@
 				45D3D30316FF991C006A614D /* SampleDataFactory.m in Sources */,
 				45D3D30716FFA0B1006A614D /* StringFactory.m in Sources */,
 				45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */,
+				8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,6 +854,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -825,6 +880,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

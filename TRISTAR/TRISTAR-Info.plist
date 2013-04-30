@@ -14,8 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>tristrAppIcon.PNG</string>
-				<string>tristrAppIcon2.PNG</string>
+				<string>tristar_app_icon.PNG</string>
+				<string>tristar_app_icon2.PNG</string>
 			</array>
 		</dict>
 	</dict>
