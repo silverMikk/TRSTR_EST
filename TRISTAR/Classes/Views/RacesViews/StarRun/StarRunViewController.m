@@ -83,9 +83,8 @@
 }
 
 - (IBAction)resultsPressed:(id)sender {
-    ChooseResultsViewController *vc = [[ChooseResultsViewController alloc] initWithNibName:@"ChooseResultsViewController" bundle:nil];
-    [vc setRaceID:[NSNumber numberWithInt:5]];
-    [self.navigationController pushViewController:vc animated:YES];
+    UIActionSheet *sheet =[[UIActionSheet alloc]initWithTitle:@"Select a year" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"2012",@"2011", nil];
+    [sheet showInView:self.view];
 }
 
 
@@ -128,5 +127,15 @@
     return cell;
 }
 
-#pragma mark tableview delegate
+#pragma mark actionsheet delegate
+-(void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
+    if (buttonIndex!=actionSheet.cancelButtonIndex) {
+        NSLog(@"%d",buttonIndex);
+        if (buttonIndex==0) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://tristar.ee/images/downloads/TRSTEE/trstee_2012_starrun.pdf"]];
+        }else if (buttonIndex==1){
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://tristar.ee/images/downloads/TRSTEE/trstee2011_starrun5_results_eng.pdf"]];
+        }
+    }
+}
 @end

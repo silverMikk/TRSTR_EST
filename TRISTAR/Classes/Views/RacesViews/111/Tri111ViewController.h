@@ -10,7 +10,7 @@
 
 @class ChapterCell;
 
-@interface Tri111ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+@interface Tri111ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate>{
     NSArray *titles ;
     NSArray *contents;
     ChapterCell *chapter;

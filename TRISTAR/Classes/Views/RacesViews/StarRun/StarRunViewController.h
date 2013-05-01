@@ -10,7 +10,7 @@
 
 @class ChapterCell;
 
-@interface StarRunViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+@interface StarRunViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate>{
     NSArray *titles ;
     NSArray *contents;
     ChapterCell *chapter;
