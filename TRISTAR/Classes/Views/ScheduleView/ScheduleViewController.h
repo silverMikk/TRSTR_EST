@@ -9,9 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "RacesViewController.h"
 
-@interface ScheduleViewController : UIViewController{
+@interface ScheduleViewController : UIViewController<UITableViewDataSource>{
     int page;
     bool controlUsed;
+    NSArray *fridayTimes;
+    NSArray *saturdayTimes;
+    NSArray *sundayTimes;
+    NSArray *fridayContent;
+    NSArray *saturdayContent;
+    NSArray *sundayContent;
 }
 
 @property (nonatomic,assign) id<ModalViewDelegate> delegate;

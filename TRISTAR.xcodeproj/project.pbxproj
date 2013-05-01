@@ -101,6 +101,8 @@
 		8C994456172F07E000D74AB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994455172F07E000D74AB7 /* Default@2x.png */; };
 		8C99445C172FCB7900D74AB7 /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C99445A172FCB7900D74AB7 /* ChapterCell.xib */; };
 		8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C99445E172FCBA100D74AB7 /* ChapterCell.m */; };
+		8CC0C94217318A7B009286BF /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0C94017318A7B009286BF /* ScheduleCell.xib */; };
+		8CC0C94517318AA1009286BF /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0C94417318AA1009286BF /* ScheduleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -233,6 +235,9 @@
 		8C99445A172FCB7900D74AB7 /* ChapterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChapterCell.xib; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.xib; sourceTree = "<group>"; };
 		8C99445D172FCBA100D74AB7 /* ChapterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChapterCell.h; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.h; sourceTree = "<group>"; };
 		8C99445E172FCBA100D74AB7 /* ChapterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChapterCell.m; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.m; sourceTree = "<group>"; };
+		8CC0C94017318A7B009286BF /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleCell.xib; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.xib; sourceTree = "<group>"; };
+		8CC0C94317318AA1009286BF /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleCell.h; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.h; sourceTree = "<group>"; };
+		8CC0C94417318AA1009286BF /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleCell.m; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +284,7 @@
 		458AC5CD16F0D2C0008BEB71 /* ScheduleView */ = {
 			isa = PBXGroup;
 			children = (
+				8CC0C93D17318A43009286BF /* Cells */,
 				458AC5CF16F0D2F0008BEB71 /* ScheduleViewController.h */,
 				458AC5D016F0D2F0008BEB71 /* ScheduleViewController.m */,
 				458AC5D116F0D2F0008BEB71 /* ScheduleViewController.xib */,
@@ -675,6 +681,16 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		8CC0C93D17318A43009286BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0C94017318A7B009286BF /* ScheduleCell.xib */,
+				8CC0C94317318AA1009286BF /* ScheduleCell.h */,
+				8CC0C94417318AA1009286BF /* ScheduleCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -779,6 +795,7 @@
 				8C994454172F07D100D74AB7 /* Default.png in Resources */,
 				8C994456172F07E000D74AB7 /* Default@2x.png in Resources */,
 				8C99445C172FCB7900D74AB7 /* ChapterCell.xib in Resources */,
+				8CC0C94217318A7B009286BF /* ScheduleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,6 +840,7 @@
 				45D3D30716FFA0B1006A614D /* StringFactory.m in Sources */,
 				45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */,
 				8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */,
+				8CC0C94517318AA1009286BF /* ScheduleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
