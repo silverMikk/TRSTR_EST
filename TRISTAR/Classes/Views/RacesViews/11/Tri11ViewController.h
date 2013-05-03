@@ -17,14 +17,12 @@
 }
 
 - (IBAction)routePressed:(id)sender;
-- (IBAction)rulesPressed:(id)sender;
 -(IBAction)resultsPressed:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UITableViewCell *firstCell;
 @property (weak, nonatomic) IBOutlet UITableView *table;
 
 @property (weak, nonatomic) IBOutlet UIButton *routeButton;
-@property (weak, nonatomic) IBOutlet UIButton *rulesButton;
 @property (weak, nonatomic) IBOutlet UIButton *resultsButton;
 
 @end

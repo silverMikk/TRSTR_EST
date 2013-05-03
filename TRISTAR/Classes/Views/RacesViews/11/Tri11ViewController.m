@@ -18,7 +18,7 @@
 @implementation Tri11ViewController
 @synthesize firstCell;
 @synthesize table;
-@synthesize routeButton,resultsButton,rulesButton;
+@synthesize routeButton,resultsButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,12 +42,6 @@
     [resultsButton.layer setShadowOpacity:0.8];
     [resultsButton.layer setShadowRadius:3.0];
     [resultsButton.layer setShadowOffset:CGSizeMake(2.0, 2.0)];
-    
-    [rulesButton.layer setShadowColor:[UIColor blackColor].CGColor];
-    [rulesButton.layer setShadowOpacity:0.8];
-    [rulesButton.layer setShadowRadius:3.0];
-    [rulesButton.layer setShadowOffset:CGSizeMake(2.0, 2.0)];
-    
     
     
     // Do any additional setup after loading the view from its nib.
@@ -76,8 +70,6 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (IBAction)rulesPressed:(id)sender {
-}
 
 -(IBAction)resultsPressed:(id)sender{
     UIActionSheet *sheet =[[UIActionSheet alloc]initWithTitle:@"Select a year" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"2012",@"2011",@"2010", nil];

@@ -103,6 +103,10 @@
 		8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C99445E172FCBA100D74AB7 /* ChapterCell.m */; };
 		8CC0C94217318A7B009286BF /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0C94017318A7B009286BF /* ScheduleCell.xib */; };
 		8CC0C94517318AA1009286BF /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0C94417318AA1009286BF /* ScheduleCell.m */; };
+		8CD087081732D48A00BC25B1 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD087061732D48A00BC25B1 /* RulesViewController.m */; };
+		8CD087091732D48A00BC25B1 /* RulesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD087071732D48A00BC25B1 /* RulesViewController.xib */; };
+		8CD0870F1732D7EA00BC25B1 /* RuleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD0870D1732D7EA00BC25B1 /* RuleCell.xib */; };
+		8CD087121732D81E00BC25B1 /* RuleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD087111732D81E00BC25B1 /* RuleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -238,6 +242,12 @@
 		8CC0C94017318A7B009286BF /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleCell.xib; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.xib; sourceTree = "<group>"; };
 		8CC0C94317318AA1009286BF /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleCell.h; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.h; sourceTree = "<group>"; };
 		8CC0C94417318AA1009286BF /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleCell.m; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.m; sourceTree = "<group>"; };
+		8CD087051732D48A00BC25B1 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulesViewController.h; path = TRISTAR/Classes/Views/RulesView/RulesViewController.h; sourceTree = "<group>"; };
+		8CD087061732D48A00BC25B1 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesViewController.m; path = TRISTAR/Classes/Views/RulesView/RulesViewController.m; sourceTree = "<group>"; };
+		8CD087071732D48A00BC25B1 /* RulesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RulesViewController.xib; path = TRISTAR/Classes/Views/RulesView/RulesViewController.xib; sourceTree = "<group>"; };
+		8CD0870D1732D7EA00BC25B1 /* RuleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RuleCell.xib; path = TRISTAR/Classes/Views/RulesView/RuleCell.xib; sourceTree = "<group>"; };
+		8CD087101732D81E00BC25B1 /* RuleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RuleCell.h; path = TRISTAR/Classes/Views/RulesView/RuleCell.h; sourceTree = "<group>"; };
+		8CD087111732D81E00BC25B1 /* RuleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RuleCell.m; path = TRISTAR/Classes/Views/RulesView/RuleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +280,10 @@
 		4554F4A016EBE988009D8C50 /* RulesView */ = {
 			isa = PBXGroup;
 			children = (
+				8CD0870A1732D7A900BC25B1 /* Cell */,
+				8CD087051732D48A00BC25B1 /* RulesViewController.h */,
+				8CD087061732D48A00BC25B1 /* RulesViewController.m */,
+				8CD087071732D48A00BC25B1 /* RulesViewController.xib */,
 			);
 			name = RulesView;
 			sourceTree = "<group>";
@@ -691,6 +705,16 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		8CD0870A1732D7A900BC25B1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0870D1732D7EA00BC25B1 /* RuleCell.xib */,
+				8CD087101732D81E00BC25B1 /* RuleCell.h */,
+				8CD087111732D81E00BC25B1 /* RuleCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -796,6 +820,8 @@
 				8C994456172F07E000D74AB7 /* Default@2x.png in Resources */,
 				8C99445C172FCB7900D74AB7 /* ChapterCell.xib in Resources */,
 				8CC0C94217318A7B009286BF /* ScheduleCell.xib in Resources */,
+				8CD087091732D48A00BC25B1 /* RulesViewController.xib in Resources */,
+				8CD0870F1732D7EA00BC25B1 /* RuleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +867,8 @@
 				45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */,
 				8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */,
 				8CC0C94517318AA1009286BF /* ScheduleCell.m in Sources */,
+				8CD087081732D48A00BC25B1 /* RulesViewController.m in Sources */,
+				8CD087121732D81E00BC25B1 /* RuleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

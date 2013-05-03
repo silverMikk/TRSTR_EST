@@ -17,7 +17,6 @@
 }
 
 - (IBAction)routePressed:(id)sender;
-- (IBAction)rulesPressed:(id)sender;
 - (IBAction)resultsPressed:(id)sender;
 
 
@@ -25,6 +24,5 @@
 @property (weak, nonatomic) IBOutlet UITableView *table;
 
 @property (weak, nonatomic) IBOutlet UIButton *routeButton;
-@property (weak, nonatomic) IBOutlet UIButton *rulesButton;
 @property (weak, nonatomic) IBOutlet UIButton *resultsButton;
 @end

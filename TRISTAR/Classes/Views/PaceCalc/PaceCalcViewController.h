@@ -48,6 +48,7 @@
 @property (weak, nonatomic) IBOutlet UISlider *bikeSlider;
 @property (weak, nonatomic) IBOutlet UISlider *T2Slider;
 @property (weak, nonatomic) IBOutlet UISlider *runSlider;
+@property (weak, nonatomic) IBOutlet UILabel *totaltimeLabel;
 
 - (IBAction)swimSliderChanged:(id)sender;
 - (IBAction)T1SliderChanged:(id)sender;

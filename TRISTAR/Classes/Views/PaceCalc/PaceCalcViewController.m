@@ -39,6 +39,7 @@
 @synthesize t2Label;
 @synthesize runSlider;
 @synthesize delegate;
+@synthesize totaltimeLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -69,6 +70,8 @@
     swimDistanceLabel.layer.cornerRadius=5;
     bikeDistanceLabel.layer.cornerRadius=5;
     runDistanceLabel.layer.cornerRadius=5;
+    
+    totaltimeLabel.layer.cornerRadius=5;
     
     [self.navigationItem setTitle:@"Pace Calculator"];
     UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithTitle:@"Main" style:UIBarButtonItemStyleBordered target:self.delegate action:@selector(dissmisModalView)];
@@ -134,6 +137,7 @@
     [self setRunSlider:nil];
     [self setT1Label:nil];
     [self setT2Label:nil];
+    [self setTotaltimeLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
