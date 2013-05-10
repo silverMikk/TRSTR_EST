@@ -22,9 +22,11 @@
 @property (nonatomic, retain) MKPolyline* swimLine;
 @property (nonatomic, retain) MKPolyline* bikeLine;
 @property (nonatomic, retain) MKPolyline* runLine;
+@property (nonatomic, retain) MKPolyline* addBikeLine;
 @property (nonatomic, retain) MKPolylineView* swimLineView;
 @property (nonatomic, retain) MKPolylineView* bikeLineView;
-@property (nonatomic, retain) MKPolylineView* runLineView;
+@property (nonatomic, retain) MKPolylineView* addbikeLineView;
+@property   MKPolylineView* runLineView;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentController;
@@ -33,7 +35,7 @@
 @property int BikeID;
 @property int RunID;
 
-@property NSString *title;
+@property (nonatomic, retain) NSString *title;
 
 - (IBAction)segmentChanged:(id)sender;
 

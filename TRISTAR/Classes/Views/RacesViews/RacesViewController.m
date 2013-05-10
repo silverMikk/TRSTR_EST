@@ -72,6 +72,7 @@
     [self setTri111Button:nil];
     [self setTri33Button:nil];
     [self setTri11Button:nil];
+    [self setDelegate:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

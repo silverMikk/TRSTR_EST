@@ -10,6 +10,12 @@
 #import "RouteAgent.h"
 #import "WaypointObject.h"
 #import "RouteObject.h"
+#import "CustomAnnotation.h"
+#import "CustomAnnotationView.h"
+#import "Overlay.h"
+#import "OverLayView.h"
+#import "BikeOverLay.h"
+#import "BikeOverLayView.h"
 
 @interface RoutesViewController ()
 
@@ -19,8 +25,8 @@
 @synthesize mapView;
 @synthesize segmentController;
 @synthesize SwimID,BikeID,RunID;
-@synthesize swimLine,bikeLine,runLine;
-@synthesize swimLineView,bikeLineView,runLineView;
+@synthesize swimLine,bikeLine,runLine,addBikeLine;
+@synthesize swimLineView,bikeLineView,runLineView,addbikeLineView;
 @synthesize title;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -42,6 +48,17 @@
 {
     [self setMapView:nil];
     [self setSegmentController:nil];
+    [self setSwimLine:nil];
+    [self setSwimLineView:nil];
+    [self setBikeLine:nil];
+    [self setBikeLineView:nil];
+    [self setAddBikeLine:nil];
+    [self setAddbikeLineView:nil];
+    [self setRunLine:nil];
+    [self setRunLineView:nil];
+    [self setMapView:nil];
+    [self setSegmentController:nil];
+    [self setTitle:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -61,6 +78,9 @@
 	}
     if (nil != self.runLine) {
 		[self.mapView addOverlay:self.runLine];
+	}
+    if (nil != self.addBikeLine) {
+		[self.mapView addOverlay:self.addBikeLine];
 	}
 	// zoom in on the route. 
     if (SwimID !=0) {
@@ -110,12 +130,14 @@
 
 #pragma mark mapviewdelegate
 
-
 -(MKOverlayView*)mapView:(MKMapView *)mapView viewForOverlay:(id<MKOverlay>)overlay{
     MKOverlayView* overlayView = nil;
 	
 	if(overlay == self.swimLine)
 	{
+        
+        //add transition area
+        
 		//if we have not yet created an overlay view for this overlay, create it now. 
 		if(nil == self.swimLineView)
 		{
@@ -142,7 +164,7 @@
 		
 	}else if(overlay == self.runLine)
 	{
-		//if we have not yet created an overlay view for this overlay, create it now. 
+		//if we have not yet created an overlay view for this overlay, create it now.
 		if(nil == self.runLineView)
 		{
 			self.runLineView = [[MKPolylineView alloc] initWithPolyline:self.runLine];
@@ -153,10 +175,103 @@
 		
 		overlayView = self.runLineView;
 		
-	}
+	}else if(overlay == self.addBikeLine)
+	{
+		//if we have not yet created an overlay view for this overlay, create it now.
+		if(nil == self.addbikeLineView)
+		{
+			self.addbikeLineView = [[MKPolylineView alloc] initWithPolyline:self.addBikeLine];
+			self.addbikeLineView.fillColor = [UIColor blueColor];
+			self.addbikeLineView.strokeColor = [UIColor blueColor];
+			self.addbikeLineView.lineWidth = 3;
+		}
+		
+		overlayView = self.addbikeLineView;
+		
+	}else{
+        
+        if ([overlay class]== [Overlay class]) {
+            Overlay *mapOverlay = (Overlay *)overlay;
+            OverLayView *mapOverlayView = [[OverLayView alloc] initWithOverlay:mapOverlay];
+            return mapOverlayView;
+        }else if ([overlay class]==[BikeOverLay class]){
+            BikeOverLay *mapOverlay = (BikeOverLay *)overlay;
+            BikeOverLayView *mapOverlayView = [[BikeOverLayView alloc] initWithOverlay:mapOverlay];
+            return mapOverlayView;
+        }
+        
+        
+
+    }
 	
 	return overlayView;
     
+}
+
+
+-(CustomAnnotationView*)mapView:(MKMapView *)mapView viewForAnnotation:(id)annotation{
+	// start pin
+    CustomAnnotation *myAnnotation = (CustomAnnotation*)annotation;
+    CustomAnnotationView *annotationView = nil;
+    
+    
+	if(myAnnotation.annotationType == CustomAnnotationTypeSwim)
+	{
+		NSString* identifier = @"Swim";
+		CustomAnnotationView *newAnnotationView = (CustomAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+        
+		if(nil == newAnnotationView)
+		{
+			newAnnotationView = [[CustomAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+		}
+        
+		annotationView = newAnnotationView;
+	}
+	else if(myAnnotation.annotationType == CustomAnnotationTypeBike)
+	{
+		NSString* identifier = @"Bike";
+		CustomAnnotationView *newAnnotationView = (CustomAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+        
+		if(nil == newAnnotationView)
+		{
+			newAnnotationView = [[CustomAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+		}
+        
+		annotationView = newAnnotationView;
+	}
+	else if(myAnnotation.annotationType == CustomAnnotationTypeRun)
+	{
+		NSString* identifier = @"Run";
+		CustomAnnotationView *newAnnotationView = (CustomAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+        
+		if(nil == newAnnotationView)
+		{
+			newAnnotationView = [[CustomAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+		}
+        
+		annotationView = newAnnotationView;
+	}
+    else if(myAnnotation.annotationType == CustomAnnotationTypeFinish)
+	{
+		NSString* identifier = @"Finish";
+		CustomAnnotationView *newAnnotationView = (CustomAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+        
+		if(nil == newAnnotationView)
+		{
+			newAnnotationView = [[CustomAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+		}
+        
+		annotationView = newAnnotationView;
+	}
+
+	[annotationView setEnabled:NO];
+	[annotationView setCanShowCallout:NO];
+    
+	    
+	[annotationView setEnabled:NO];
+	[annotationView setCanShowCallout:NO];
+    
+	return annotationView;
 }
 
 
@@ -167,6 +282,9 @@
 	MKMapPoint southWestPoint; 
     if (SwimID!=0) {
         NSArray *swimArray = [agent getRouteWaypointsForID:SwimID];
+        
+        Overlay *overlay = [[Overlay alloc] init];
+        [mapView addOverlay:overlay];
         
         
         // create a c array of points. 
@@ -179,19 +297,16 @@
             
             //start
             if (idx==0) {
-                MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
-                annotationPoint.coordinate =coord;
-                annotationPoint.title = @"Start";
-                [mapView addAnnotation:annotationPoint];
+                CustomAnnotation *annotationPoint = [[CustomAnnotation alloc] init];
+                annotationPoint.coordinate = coord;
+                annotationPoint.annotationType=CustomAnnotationTypeSwim;
+                [mapView addAnnotation:(id)annotationPoint];
+
                 
                 
             }
             //end
             if (idx==swimArray.count-1) {
-                MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
-                annotationPoint.coordinate = coord;
-                annotationPoint.title = @"End";
-                [mapView addAnnotation:annotationPoint];
                 
             }
             
@@ -230,9 +345,17 @@
     }
     if (BikeID !=0) {
         NSArray *bikeArray = [agent getRouteWaypointsForID:BikeID];
+        NSArray *addBikeArrray ;
         
         
-        // create a c array of points. 
+        if (BikeID==12) {
+            // add sign to route 1. and 2. bike loop
+            BikeOverLay *overlay = [[BikeOverLay alloc] init];
+            [mapView addOverlay:overlay];
+            addBikeArrray = [[agent getRouteWaypointsForID:32] subarrayWithRange:NSMakeRange(10, 40)];
+        }
+        
+        // create a c array of points.
         MKMapPoint* pointArr = malloc(sizeof(CLLocationCoordinate2D) * bikeArray.count);
         for(int idx = 0; idx < bikeArray.count; idx++)
         {
@@ -242,19 +365,15 @@
             
             //start
             if (idx==0) {
-                MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
-                annotationPoint.coordinate =coord;
-                annotationPoint.title = @"Start";
-                [mapView addAnnotation:annotationPoint];
+                CustomAnnotation *annotationPoint = [[CustomAnnotation alloc] init];
+                annotationPoint.coordinate = coord;
+                annotationPoint.annotationType=CustomAnnotationTypeBike;
+                [mapView addAnnotation:(id)annotationPoint];
                 
                 
             }
             //end
             if (idx==bikeArray.count-1) {
-                MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
-                annotationPoint.coordinate = coord;
-                annotationPoint.title = @"End";
-                [mapView addAnnotation:annotationPoint];
                 
             }
             
@@ -290,7 +409,32 @@
         // clear the memory allocated earlier for the points
         free(pointArr);
 
+        if (addBikeArrray !=nil) {
+            // create a c array of points.
+            MKMapPoint* pointArr = malloc(sizeof(CLLocationCoordinate2D) * addBikeArrray.count);
+            for(int idx = 0; idx < addBikeArrray.count; idx++)
+            {
+                WaypointObject *w = [addBikeArrray objectAtIndex:idx];
+                CLLocationCoordinate2D coord = CLLocationCoordinate2DMake(w.latitude.doubleValue, w.longitude.doubleValue);
+                MKMapPoint point = MKMapPointForCoordinate(coord);
+                
+                                
+                                
+                pointArr[idx] = point;
+                
+            }
+            // create the polyline based on the array of points.
+            self.addBikeLine = [MKPolyline polylineWithPoints:pointArr count:addBikeArrray.count];
+            
+            
+            // clear the memory allocated earlier for the points
+            free(pointArr);
+            
+        
+        }
     }
+    
+    
     
     if (RunID !=0) {
         NSArray *runArray = [agent getRouteWaypointsForID:RunID];
@@ -306,19 +450,19 @@
             
             //start
             if (idx==0) {
-                MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
-                annotationPoint.coordinate =coord;
-                annotationPoint.title = @"Start";
-                [mapView addAnnotation:annotationPoint];
+                CustomAnnotation *annotationPoint = [[CustomAnnotation alloc] init];
+                annotationPoint.coordinate = coord;
+                annotationPoint.annotationType=CustomAnnotationTypeRun;
+                [mapView addAnnotation:(id)annotationPoint];
                 
                 
             }
             //end
             if (idx==runArray.count-1) {
-                MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
+                CustomAnnotation *annotationPoint = [[CustomAnnotation alloc] init];
                 annotationPoint.coordinate = coord;
-                annotationPoint.title = @"End";
-                [mapView addAnnotation:annotationPoint];
+                annotationPoint.annotationType=CustomAnnotationTypeFinish;
+                [mapView addAnnotation:(id)annotationPoint];
                 
             }
             

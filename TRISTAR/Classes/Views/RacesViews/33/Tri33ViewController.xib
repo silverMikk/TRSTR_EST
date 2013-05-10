@@ -102,7 +102,7 @@
 							<object class="IBUIButton" id="859475724">
 								<reference key="NSNextResponder" ref="542380769"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 20}, {142, 37}}</string>
+								<string key="NSFrame">{{10, 20}, {100, 37}}</string>
 								<reference key="NSSuperview" ref="542380769"/>
 								<reference key="NSNextKeyView" ref="1038561956"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -141,7 +141,7 @@
 							<object class="IBUIButton" id="1038561956">
 								<reference key="NSNextResponder" ref="542380769"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 66}, {142, 37}}</string>
+								<string key="NSFrame">{{10, 66}, {100, 37}}</string>
 								<reference key="NSSuperview" ref="542380769"/>
 								<reference key="NSNextKeyView" ref="447933322"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -161,17 +161,22 @@
 							<object class="IBUIImageView" id="180541999">
 								<reference key="NSNextResponder" ref="542380769"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{170, 20}, {130, 130}}</string>
+								<string key="NSFrame">{{128, 20}, {172, 130}}</string>
 								<reference key="NSSuperview" ref="542380769"/>
 								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<int key="IBUIContentMode">1</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<object class="NSCustomResource" key="IBUIImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">Distance33,3LogoRed@2x.png</string>
+								</object>
 							</object>
 							<object class="IBUIButton" id="447933322">
 								<reference key="NSNextResponder" ref="542380769"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 113}, {142, 37}}</string>
+								<string key="NSFrame">{{10, 113}, {100, 37}}</string>
 								<reference key="NSSuperview" ref="542380769"/>
 								<reference key="NSNextKeyView" ref="180541999"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -411,10 +416,10 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">calc_back.png</string>
-			<string key="NS.object.0">{320, 460}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="Distance33,3LogoRed@2x.png">{339, 260}</string>
+			<string key="calc_back.png">{320, 460}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
 </archive>

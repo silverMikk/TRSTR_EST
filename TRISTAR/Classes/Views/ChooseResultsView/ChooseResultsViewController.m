@@ -37,6 +37,7 @@
 
 - (void)viewDidUnload
 {
+    [self setRaceID:nil];
     [self setTable:nil];
     [self setTopImage:nil];
     [super viewDidUnload];

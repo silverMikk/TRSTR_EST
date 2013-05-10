@@ -37,6 +37,7 @@
 
 - (void)viewDidUnload
 {
+    [self setDelegate:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

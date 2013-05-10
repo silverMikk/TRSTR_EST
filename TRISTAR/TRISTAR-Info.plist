@@ -14,13 +14,13 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>tristar_app_icon.PNG</string>
-				<string>tristar_app_icon2.PNG</string>
+				<string>app_icon.PNG</string>
+				<string>app_icon@2x.PNG</string>
 			</array>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>sportlyzer.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>sportlyzer.TriStarEST</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -44,8 +44,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

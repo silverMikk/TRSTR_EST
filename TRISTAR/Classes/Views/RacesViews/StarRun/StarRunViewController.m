@@ -54,6 +54,10 @@
 
 - (void)viewDidUnload
 {
+    [self setFirstCell:nil];
+    [self setTable:nil];
+    [self setRouteButton:nil];
+    [self setResultsButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

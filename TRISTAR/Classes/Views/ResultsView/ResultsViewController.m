@@ -33,6 +33,8 @@
 
 - (void)viewDidUnload
 {
+    [self setRaceID:nil];
+    [self setAgeGroupID:nil];
     [self setTable:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
@@ -52,11 +54,11 @@
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
+    return 0;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    return nil;
 }
 
 

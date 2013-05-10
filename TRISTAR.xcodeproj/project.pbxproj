@@ -90,6 +90,31 @@
 		45D3D30716FFA0B1006A614D /* StringFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30616FFA0B1006A614D /* StringFactory.m */; };
 		45D3D30D16FFA1D4006A614D /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D3D30B16FFA1D4006A614D /* ResultCell.xib */; };
 		45D3D31016FFA1FD006A614D /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3D30F16FFA1FD006A614D /* ResultCell.m */; };
+		8C19DD06173C14A5001B4C4D /* distance111LogoBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD04173C14A5001B4C4D /* distance111LogoBlack@2x.png */; };
+		8C19DD07173C14A5001B4C4D /* distance111LogoRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD05173C14A5001B4C4D /* distance111LogoRed@2x.png */; };
+		8C19DD0A173C162F001B4C4D /* Distance11,1LogoBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD08173C162F001B4C4D /* Distance11,1LogoBlack@2x.png */; };
+		8C19DD0B173C162F001B4C4D /* Distance11,1LogoRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD09173C162F001B4C4D /* Distance11,1LogoRed@2x.png */; };
+		8C19DD10173C2555001B4C4D /* starRunYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD0C173C2555001B4C4D /* starRunYellow@2x.png */; };
+		8C19DD11173C2555001B4C4D /* starRun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD0D173C2555001B4C4D /* starRun@2x.png */; };
+		8C19DD12173C2555001B4C4D /* Distance33,3LogoRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD0E173C2555001B4C4D /* Distance33,3LogoRed@2x.png */; };
+		8C19DD13173C2555001B4C4D /* Distance33,3LogoBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C19DD0F173C2555001B4C4D /* Distance33,3LogoBlack@2x.png */; };
+		8C5DCD85173AE09400C5FD3B /* swim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD7D173AE09400C5FD3B /* swim2.png */; };
+		8C5DCD86173AE09400C5FD3B /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD7E173AE09400C5FD3B /* bike.png */; };
+		8C5DCD87173AE09400C5FD3B /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD7F173AE09400C5FD3B /* finish.png */; };
+		8C5DCD88173AE09400C5FD3B /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD80173AE09400C5FD3B /* run.png */; };
+		8C5DCD89173AE09400C5FD3B /* finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD81173AE09400C5FD3B /* finish@2x.png */; };
+		8C5DCD8A173AE09400C5FD3B /* bike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD82173AE09400C5FD3B /* bike@2x.png */; };
+		8C5DCD8B173AE09400C5FD3B /* swim2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD83173AE09400C5FD3B /* swim2@2x.png */; };
+		8C5DCD8C173AE09400C5FD3B /* run@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD84173AE09400C5FD3B /* run@2x.png */; };
+		8C5DCD8F173AEACC00C5FD3B /* Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DCD8E173AEACC00C5FD3B /* Overlay.m */; };
+		8C5DCD92173AEC3300C5FD3B /* OverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5DCD91173AEC3300C5FD3B /* OverLayView.m */; };
+		8C5DCD94173AEC6F00C5FD3B /* transition.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD93173AEC6F00C5FD3B /* transition.png */; };
+		8C5DCD96173AF0B900C5FD3B /* transition4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5DCD95173AF0B900C5FD3B /* transition4.png */; };
+		8C86136D173ACFE2007E938D /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86136C173ACFE2007E938D /* CustomAnnotation.m */; };
+		8C861370173AD010007E938D /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86136F173AD010007E938D /* CustomAnnotationView.m */; };
+		8C861374173AD5CD007E938D /* cycling_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C861371173AD5CD007E938D /* cycling_g.png */; };
+		8C861375173AD5CD007E938D /* running_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C861372173AD5CD007E938D /* running_g.png */; };
+		8C861376173AD5CD007E938D /* swimming_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C861373173AD5CD007E938D /* swimming_g.png */; };
 		8C994446172EF96700D74AB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994445172EF96700D74AB7 /* Default-568h@2x.png */; };
 		8C99444D172F07B300D74AB7 /* calc_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994447172F07B300D74AB7 /* calc_back.png */; };
 		8C99444E172F07B300D74AB7 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994448172F07B300D74AB7 /* launch.png */; };
@@ -101,6 +126,11 @@
 		8C994456172F07E000D74AB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C994455172F07E000D74AB7 /* Default@2x.png */; };
 		8C99445C172FCB7900D74AB7 /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C99445A172FCB7900D74AB7 /* ChapterCell.xib */; };
 		8C99445F172FCBA100D74AB7 /* ChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C99445E172FCBA100D74AB7 /* ChapterCell.m */; };
+		8C9B8CBA173BC30E009EA1A4 /* BikeOverLay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B8CB9173BC30E009EA1A4 /* BikeOverLay.m */; };
+		8C9B8CBD173BC41E009EA1A4 /* BikeOverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B8CBC173BC41E009EA1A4 /* BikeOverLayView.m */; };
+		8C9B8CBF173BC45F009EA1A4 /* bike_sign.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8C9B8CBE173BC45F009EA1A4 /* bike_sign.PNG */; };
+		8CA38B57173CCAA2006F3DEC /* app_icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CA38B55173CCAA2006F3DEC /* app_icon.PNG */; };
+		8CA38B58173CCAA2006F3DEC /* app_icon@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CA38B56173CCAA2006F3DEC /* app_icon@2x.PNG */; };
 		8CC0C94217318A7B009286BF /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC0C94017318A7B009286BF /* ScheduleCell.xib */; };
 		8CC0C94517318AA1009286BF /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0C94417318AA1009286BF /* ScheduleCell.m */; };
 		8CD087081732D48A00BC25B1 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD087061732D48A00BC25B1 /* RulesViewController.m */; };
@@ -227,6 +257,35 @@
 		45D3D30B16FFA1D4006A614D /* ResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultCell.xib; path = TRISTAR/Classes/Views/ResultsView/ResultCell.xib; sourceTree = "<group>"; };
 		45D3D30E16FFA1FD006A614D /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultCell.h; path = TRISTAR/Classes/Views/ResultsView/ResultCell.h; sourceTree = "<group>"; };
 		45D3D30F16FFA1FD006A614D /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultCell.m; path = TRISTAR/Classes/Views/ResultsView/ResultCell.m; sourceTree = "<group>"; };
+		8C19DD04173C14A5001B4C4D /* distance111LogoBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distance111LogoBlack@2x.png"; sourceTree = "<group>"; };
+		8C19DD05173C14A5001B4C4D /* distance111LogoRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distance111LogoRed@2x.png"; sourceTree = "<group>"; };
+		8C19DD08173C162F001B4C4D /* Distance11,1LogoBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Distance11,1LogoBlack@2x.png"; sourceTree = "<group>"; };
+		8C19DD09173C162F001B4C4D /* Distance11,1LogoRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Distance11,1LogoRed@2x.png"; sourceTree = "<group>"; };
+		8C19DD0C173C2555001B4C4D /* starRunYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starRunYellow@2x.png"; sourceTree = "<group>"; };
+		8C19DD0D173C2555001B4C4D /* starRun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starRun@2x.png"; sourceTree = "<group>"; };
+		8C19DD0E173C2555001B4C4D /* Distance33,3LogoRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Distance33,3LogoRed@2x.png"; sourceTree = "<group>"; };
+		8C19DD0F173C2555001B4C4D /* Distance33,3LogoBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Distance33,3LogoBlack@2x.png"; sourceTree = "<group>"; };
+		8C5DCD7D173AE09400C5FD3B /* swim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swim2.png; sourceTree = "<group>"; };
+		8C5DCD7E173AE09400C5FD3B /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike.png; sourceTree = "<group>"; };
+		8C5DCD7F173AE09400C5FD3B /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finish.png; sourceTree = "<group>"; };
+		8C5DCD80173AE09400C5FD3B /* run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run.png; sourceTree = "<group>"; };
+		8C5DCD81173AE09400C5FD3B /* finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finish@2x.png"; sourceTree = "<group>"; };
+		8C5DCD82173AE09400C5FD3B /* bike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike@2x.png"; sourceTree = "<group>"; };
+		8C5DCD83173AE09400C5FD3B /* swim2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swim2@2x.png"; sourceTree = "<group>"; };
+		8C5DCD84173AE09400C5FD3B /* run@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "run@2x.png"; sourceTree = "<group>"; };
+		8C5DCD8D173AEACC00C5FD3B /* Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Overlay.h; path = TRISTAR/Classes/Views/RoutesView/Overlay.h; sourceTree = "<group>"; };
+		8C5DCD8E173AEACC00C5FD3B /* Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Overlay.m; path = TRISTAR/Classes/Views/RoutesView/Overlay.m; sourceTree = "<group>"; };
+		8C5DCD90173AEC3300C5FD3B /* OverLayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverLayView.h; path = TRISTAR/Classes/Views/RoutesView/OverLayView.h; sourceTree = "<group>"; };
+		8C5DCD91173AEC3300C5FD3B /* OverLayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverLayView.m; path = TRISTAR/Classes/Views/RoutesView/OverLayView.m; sourceTree = "<group>"; };
+		8C5DCD93173AEC6F00C5FD3B /* transition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transition.png; sourceTree = "<group>"; };
+		8C5DCD95173AF0B900C5FD3B /* transition4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transition4.png; sourceTree = "<group>"; };
+		8C86136B173ACFE2007E938D /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotation.h; path = TRISTAR/Classes/Views/RoutesView/CustomAnnotation.h; sourceTree = "<group>"; };
+		8C86136C173ACFE2007E938D /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotation.m; path = TRISTAR/Classes/Views/RoutesView/CustomAnnotation.m; sourceTree = "<group>"; };
+		8C86136E173AD010007E938D /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotationView.h; path = TRISTAR/Classes/Views/RoutesView/CustomAnnotationView.h; sourceTree = "<group>"; };
+		8C86136F173AD010007E938D /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotationView.m; path = TRISTAR/Classes/Views/RoutesView/CustomAnnotationView.m; sourceTree = "<group>"; };
+		8C861371173AD5CD007E938D /* cycling_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycling_g.png; sourceTree = "<group>"; };
+		8C861372173AD5CD007E938D /* running_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running_g.png; sourceTree = "<group>"; };
+		8C861373173AD5CD007E938D /* swimming_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swimming_g.png; sourceTree = "<group>"; };
 		8C994445172EF96700D74AB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8C994447172F07B300D74AB7 /* calc_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_back.png; sourceTree = "<group>"; };
 		8C994448172F07B300D74AB7 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
@@ -239,6 +298,13 @@
 		8C99445A172FCB7900D74AB7 /* ChapterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChapterCell.xib; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.xib; sourceTree = "<group>"; };
 		8C99445D172FCBA100D74AB7 /* ChapterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChapterCell.h; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.h; sourceTree = "<group>"; };
 		8C99445E172FCBA100D74AB7 /* ChapterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChapterCell.m; path = TRISTAR/Classes/Views/RacesViews/ChapterCell.m; sourceTree = "<group>"; };
+		8C9B8CB8173BC30E009EA1A4 /* BikeOverLay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikeOverLay.h; path = TRISTAR/Classes/Views/RoutesView/BikeOverLay.h; sourceTree = "<group>"; };
+		8C9B8CB9173BC30E009EA1A4 /* BikeOverLay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikeOverLay.m; path = TRISTAR/Classes/Views/RoutesView/BikeOverLay.m; sourceTree = "<group>"; };
+		8C9B8CBB173BC41E009EA1A4 /* BikeOverLayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikeOverLayView.h; path = TRISTAR/Classes/Views/RoutesView/BikeOverLayView.h; sourceTree = "<group>"; };
+		8C9B8CBC173BC41E009EA1A4 /* BikeOverLayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikeOverLayView.m; path = TRISTAR/Classes/Views/RoutesView/BikeOverLayView.m; sourceTree = "<group>"; };
+		8C9B8CBE173BC45F009EA1A4 /* bike_sign.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike_sign.PNG; sourceTree = "<group>"; };
+		8CA38B55173CCAA2006F3DEC /* app_icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.PNG; sourceTree = "<group>"; };
+		8CA38B56173CCAA2006F3DEC /* app_icon@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.PNG"; sourceTree = "<group>"; };
 		8CC0C94017318A7B009286BF /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleCell.xib; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.xib; sourceTree = "<group>"; };
 		8CC0C94317318AA1009286BF /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleCell.h; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.h; sourceTree = "<group>"; };
 		8CC0C94417318AA1009286BF /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleCell.m; path = TRISTAR/Classes/Views/ScheduleView/ScheduleCell.m; sourceTree = "<group>"; };
@@ -273,6 +339,18 @@
 				4554F4A716EBEA0A009D8C50 /* RoutesViewController.h */,
 				4554F4A816EBEA0A009D8C50 /* RoutesViewController.m */,
 				4554F4A916EBEA0A009D8C50 /* RoutesViewController.xib */,
+				8C86136B173ACFE2007E938D /* CustomAnnotation.h */,
+				8C86136C173ACFE2007E938D /* CustomAnnotation.m */,
+				8C86136E173AD010007E938D /* CustomAnnotationView.h */,
+				8C86136F173AD010007E938D /* CustomAnnotationView.m */,
+				8C5DCD8D173AEACC00C5FD3B /* Overlay.h */,
+				8C5DCD8E173AEACC00C5FD3B /* Overlay.m */,
+				8C5DCD90173AEC3300C5FD3B /* OverLayView.h */,
+				8C5DCD91173AEC3300C5FD3B /* OverLayView.m */,
+				8C9B8CB8173BC30E009EA1A4 /* BikeOverLay.h */,
+				8C9B8CB9173BC30E009EA1A4 /* BikeOverLay.m */,
+				8C9B8CBB173BC41E009EA1A4 /* BikeOverLayView.h */,
+				8C9B8CBC173BC41E009EA1A4 /* BikeOverLayView.m */,
 			);
 			name = RoutesView;
 			sourceTree = "<group>";
@@ -526,6 +604,9 @@
 		45CB279D16E50C8300881E3C /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				8CA38B55173CCAA2006F3DEC /* app_icon.PNG */,
+				8CA38B56173CCAA2006F3DEC /* app_icon@2x.PNG */,
+				8C19DD03173C1468001B4C4D /* Events */,
 				8C994455172F07E000D74AB7 /* Default@2x.png */,
 				8C994453172F07D100D74AB7 /* Default.png */,
 				8C994445172EF96700D74AB7 /* Default-568h@2x.png */,
@@ -658,6 +739,20 @@
 		45CFF3DA16EBD47F00C43882 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				8C9B8CBE173BC45F009EA1A4 /* bike_sign.PNG */,
+				8C5DCD95173AF0B900C5FD3B /* transition4.png */,
+				8C5DCD93173AEC6F00C5FD3B /* transition.png */,
+				8C5DCD7D173AE09400C5FD3B /* swim2.png */,
+				8C5DCD7E173AE09400C5FD3B /* bike.png */,
+				8C5DCD7F173AE09400C5FD3B /* finish.png */,
+				8C5DCD80173AE09400C5FD3B /* run.png */,
+				8C5DCD81173AE09400C5FD3B /* finish@2x.png */,
+				8C5DCD82173AE09400C5FD3B /* bike@2x.png */,
+				8C5DCD83173AE09400C5FD3B /* swim2@2x.png */,
+				8C5DCD84173AE09400C5FD3B /* run@2x.png */,
+				8C861371173AD5CD007E938D /* cycling_g.png */,
+				8C861372173AD5CD007E938D /* running_g.png */,
+				8C861373173AD5CD007E938D /* swimming_g.png */,
 				45CFF3DC16EBD4A700C43882 /* star_logo_tristar_estonia_450x90_01.png */,
 				45CFF3DD16EBD4A700C43882 /* tristrAppIcon.PNG */,
 				45CFF3DE16EBD4A700C43882 /* tristrAppIcon2.PNG */,
@@ -683,6 +778,21 @@
 				45D3D30F16FFA1FD006A614D /* ResultCell.m */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		8C19DD03173C1468001B4C4D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8C19DD0C173C2555001B4C4D /* starRunYellow@2x.png */,
+				8C19DD0D173C2555001B4C4D /* starRun@2x.png */,
+				8C19DD0E173C2555001B4C4D /* Distance33,3LogoRed@2x.png */,
+				8C19DD0F173C2555001B4C4D /* Distance33,3LogoBlack@2x.png */,
+				8C19DD08173C162F001B4C4D /* Distance11,1LogoBlack@2x.png */,
+				8C19DD09173C162F001B4C4D /* Distance11,1LogoRed@2x.png */,
+				8C19DD04173C14A5001B4C4D /* distance111LogoBlack@2x.png */,
+				8C19DD05173C14A5001B4C4D /* distance111LogoRed@2x.png */,
+			);
+			name = Events;
 			sourceTree = "<group>";
 		};
 		8C994457172FCB4100D74AB7 /* Cells */ = {
@@ -822,6 +932,30 @@
 				8CC0C94217318A7B009286BF /* ScheduleCell.xib in Resources */,
 				8CD087091732D48A00BC25B1 /* RulesViewController.xib in Resources */,
 				8CD0870F1732D7EA00BC25B1 /* RuleCell.xib in Resources */,
+				8C861374173AD5CD007E938D /* cycling_g.png in Resources */,
+				8C861375173AD5CD007E938D /* running_g.png in Resources */,
+				8C861376173AD5CD007E938D /* swimming_g.png in Resources */,
+				8C5DCD85173AE09400C5FD3B /* swim2.png in Resources */,
+				8C5DCD86173AE09400C5FD3B /* bike.png in Resources */,
+				8C5DCD87173AE09400C5FD3B /* finish.png in Resources */,
+				8C5DCD88173AE09400C5FD3B /* run.png in Resources */,
+				8C5DCD89173AE09400C5FD3B /* finish@2x.png in Resources */,
+				8C5DCD8A173AE09400C5FD3B /* bike@2x.png in Resources */,
+				8C5DCD8B173AE09400C5FD3B /* swim2@2x.png in Resources */,
+				8C5DCD8C173AE09400C5FD3B /* run@2x.png in Resources */,
+				8C5DCD94173AEC6F00C5FD3B /* transition.png in Resources */,
+				8C5DCD96173AF0B900C5FD3B /* transition4.png in Resources */,
+				8C9B8CBF173BC45F009EA1A4 /* bike_sign.PNG in Resources */,
+				8C19DD06173C14A5001B4C4D /* distance111LogoBlack@2x.png in Resources */,
+				8C19DD07173C14A5001B4C4D /* distance111LogoRed@2x.png in Resources */,
+				8C19DD0A173C162F001B4C4D /* Distance11,1LogoBlack@2x.png in Resources */,
+				8C19DD0B173C162F001B4C4D /* Distance11,1LogoRed@2x.png in Resources */,
+				8C19DD10173C2555001B4C4D /* starRunYellow@2x.png in Resources */,
+				8C19DD11173C2555001B4C4D /* starRun@2x.png in Resources */,
+				8C19DD12173C2555001B4C4D /* Distance33,3LogoRed@2x.png in Resources */,
+				8C19DD13173C2555001B4C4D /* Distance33,3LogoBlack@2x.png in Resources */,
+				8CA38B57173CCAA2006F3DEC /* app_icon.PNG in Resources */,
+				8CA38B58173CCAA2006F3DEC /* app_icon@2x.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -869,6 +1003,12 @@
 				8CC0C94517318AA1009286BF /* ScheduleCell.m in Sources */,
 				8CD087081732D48A00BC25B1 /* RulesViewController.m in Sources */,
 				8CD087121732D81E00BC25B1 /* RuleCell.m in Sources */,
+				8C86136D173ACFE2007E938D /* CustomAnnotation.m in Sources */,
+				8C861370173AD010007E938D /* CustomAnnotationView.m in Sources */,
+				8C5DCD8F173AEACC00C5FD3B /* Overlay.m in Sources */,
+				8C5DCD92173AEC3300C5FD3B /* OverLayView.m in Sources */,
+				8C9B8CBA173BC30E009EA1A4 /* BikeOverLay.m in Sources */,
+				8C9B8CBD173BC41E009EA1A4 /* BikeOverLayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,7 +1075,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -944,6 +1084,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

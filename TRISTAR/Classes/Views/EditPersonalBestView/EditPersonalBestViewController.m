@@ -39,6 +39,8 @@
 
 - (void)viewDidUnload
 {
+    [self setCommentsTf:nil];
+    [self setDateButton:nil];
     [self setNameTf:nil];
     [self setHoursTf:nil];
     [self setMinutesTf:nil];
